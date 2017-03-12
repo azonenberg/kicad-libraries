@@ -1,0 +1,21 @@
+(module BGA_4_1p5_0p8_0.4MM (layer F.Cu) (tedit 559F33AA)
+  (solder_mask_margin 0.05)
+  (fp_text reference REF** (at 0 -6.4) (layer F.SilkS) hide
+    (effects (font (size 1.5 1.5) (thickness 0.15)))
+  )
+  (fp_text value BGA_4_1p5_0p8_0.4MM (at 0 -4.4) (layer F.Fab) hide
+    (effects (font (size 1.5 1.5) (thickness 0.15)))
+  )
+  (fp_text user . (at -0.8 0.2) (layer F.SilkS)
+    (effects (font (size 0.5 0.5) (thickness 0.125)))
+  )
+  (pad 1 smd circle (at -0.5 0.205) (size 0.25 0.25) (layers F.Cu F.Paste F.Mask))
+  (pad 2 smd circle (at 0.5 0.205) (size 0.25 0.25) (layers F.Cu F.Paste F.Mask))
+  (pad 3 smd circle (at 0.5 -0.205) (size 0.25 0.25) (layers F.Cu F.Paste F.Mask))
+  (pad 4 smd circle (at -0.5 -0.205) (size 0.25 0.25) (layers F.Cu F.Paste F.Mask))
+  (model /nfs4/home/azonenberg/kicad-libs/3rdparty/walter/smd_qfn/dfn8.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 0.4 0.2 0.4))
+    (rotate (xyz 0 0 0))
+  )
+)

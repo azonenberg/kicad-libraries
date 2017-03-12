@@ -1,0 +1,14 @@
+(module LOGO_PB_FREE_8MM (layer F.Cu) (tedit 53C66C56)
+  (fp_text reference LOGO_PB_FREE_8MM (at 0 5) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value VAL** (at 0 7) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_line (start 0 0) (end 2.75 2.75) (layer F.SilkS) (width 0.25))
+  (fp_line (start 0 0) (end -2.75 -2.75) (layer F.SilkS) (width 0.25))
+  (fp_text user Pb (at 0 0) (layer F.SilkS)
+    (effects (font (size 3 3) (thickness 0.5)))
+  )
+  (fp_circle (center 0 0) (end 4 0) (layer F.SilkS) (width 0.25))
+)

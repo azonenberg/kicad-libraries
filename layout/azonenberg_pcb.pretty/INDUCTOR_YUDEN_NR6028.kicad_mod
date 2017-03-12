@@ -1,0 +1,15 @@
+(module INDUCTOR_YUDEN_NR6028 (layer F.Cu) (tedit 53C52B56)
+  (fp_text reference INDUCTOR_YUDEN_NR6028 (at 0 4) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value VAL** (at 0 6.5) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad 1 smd rect (at -2.35 0) (size 1.6 5.7) (layers F.Cu F.Paste F.Mask))
+  (pad 2 smd rect (at 2.35 0) (size 1.6 5.7) (layers F.Cu F.Paste F.Mask))
+  (model /nfs4/home/azonenberg/kicad-libs/3rdparty/walter/smd_inductors/inductor_smd_8x5mm.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 0.75 0.75 0.5))
+    (rotate (xyz 0 0 0))
+  )
+)

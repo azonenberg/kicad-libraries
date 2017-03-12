@@ -1,0 +1,9 @@
+(module STENCIL8_TOOLING_HOLE (layer F.Cu) (tedit 54B4C4C0)
+  (fp_text reference STENCIL8_TOOLING_HOLE (at 0 -1.5) (layer F.SilkS) hide
+    (effects (font (size 0.508 0.457) (thickness 0.11425)))
+  )
+  (fp_text value VAL** (at 0 -2.5) (layer F.SilkS) hide
+    (effects (font (size 0.508 0.457) (thickness 0.11425)))
+  )
+  (pad "" np_thru_hole circle (at 0 0) (size 2.55 2.55) (drill 2.55) (layers *.Cu *.Paste *.Mask))
+)

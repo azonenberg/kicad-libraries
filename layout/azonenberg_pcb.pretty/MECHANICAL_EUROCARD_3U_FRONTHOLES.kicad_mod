@@ -1,0 +1,15 @@
+(module MECHANICAL_EUROCARD_3U_FRONTHOLES (layer F.Cu) (tedit 53ED9BAC)
+  (fp_text reference MECHANICAL_EUROCARD_3U_FRONTHOLES (at 16 40) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value VAL** (at 3 38) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_line (start 0 -50) (end 0 50) (layer Dwgs.User) (width 0.2))
+  (fp_line (start 0 -50) (end 10 -50) (layer Dwgs.User) (width 0.2))
+  (fp_line (start 0 50) (end 10 50) (layer Dwgs.User) (width 0.2))
+  (fp_line (start 0 -47.5) (end 10 -47.5) (layer Dwgs.User) (width 0.2))
+  (fp_line (start 0 47.5) (end 10 47.5) (layer Dwgs.User) (width 0.2))
+  (pad "" np_thru_hole circle (at 3.165 44.45) (size 3.5 3.5) (drill 2.7) (layers *.Cu *.Mask F.SilkS))
+  (pad "" np_thru_hole circle (at 3.165 -44.45) (size 3.5 3.5) (drill 2.7) (layers *.Cu *.Mask F.SilkS))
+)
