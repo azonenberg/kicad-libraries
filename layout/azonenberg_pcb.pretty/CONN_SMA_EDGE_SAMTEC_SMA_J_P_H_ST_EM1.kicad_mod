@@ -1,4 +1,4 @@
-(module CONN_SMA_EDGE_SAMTEC_SMA_J_P_H_ST_EM1 (layer F.Cu) (tedit 58C5F3AE)
+(module CONN_SMA_EDGE_SAMTEC_SMA_J_P_H_ST_EM1 (layer F.Cu) (tedit 58C644D9)
   (fp_text reference REF** (at 0 3.1) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.15)))
   )
@@ -7,7 +7,7 @@
   )
   (pad 1 smd rect (at 0 -2.1) (size 1.27 4.2) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at 2.825 -2.35) (size 1.35 4.7) (layers F.Cu F.Paste F.Mask))
-  (pad 3 smd rect (at -2.825 -2.35) (size 1.35 4.7) (layers F.Cu F.Paste F.Mask))
+  (pad 2 smd rect (at -2.825 -2.35) (size 1.35 4.7) (layers F.Cu F.Paste F.Mask))
   (model /nfs4/home/azonenberg/kicad-libs/3rdparty/walter/conn_rf/sma_90_r300.124.403.wrl
     (at (xyz 0 -0.03937007874015748 0))
     (scale (xyz 1 1 1))
