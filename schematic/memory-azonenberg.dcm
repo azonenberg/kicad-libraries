@@ -5,4 +5,9 @@ D I2C Serial EEPROM with MAC address
 K EEPROM Serial
 $ENDCMP
 #
+$CMP 24Cxx-DFN8
+D I2C Serial EEPROM with MAC address
+K EEPROM Serial
+$ENDCMP
+#
 #End Doc Library
