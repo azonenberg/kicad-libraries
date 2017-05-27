@@ -1,0 +1,13 @@
+(module TEARDROP_03 (layer F.Cu) (tedit 0)
+  (fp_text reference G*** (at 0 0) (layer F.SilkS) hide
+    (effects (font (thickness 0.3)))
+  )
+  (fp_text value TEARDROP_03 (at 0.75 0) (layer F.SilkS) hide
+    (effects (font (thickness 0.3)))
+  )
+  (fp_poly (pts (xy 0.065981 -0.030454) (xy 0.066753 -0.017113) (xy 0.067223 0.002148) (xy 0.0673 0.009525)
+    (xy 0.067733 0.067733) (xy 0.009525 0.0673) (xy -0.011473 0.066941) (xy -0.026827 0.06626)
+    (xy -0.035689 0.065322) (xy -0.037209 0.064192) (xy -0.035984 0.063795) (xy -0.006039 0.052364)
+    (xy 0.020477 0.03406) (xy 0.042235 0.01021) (xy 0.057909 -0.017858) (xy 0.063795 -0.035984)
+    (xy 0.064973 -0.037027) (xy 0.065981 -0.030454)) (layer F.Cu) (width 0.01))
+)
