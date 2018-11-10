@@ -1,0 +1,15 @@
+(module EIA_1812_CAP_NOSILK (layer F.Cu) (tedit 5A3B3D88)
+  (fp_text reference EIA_1812_CAP_NOSILK (at -0.05 2.65) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value VAL** (at -0.05 4.15) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad 1 smd rect (at -2.35 0) (size 1.25 3) (layers F.Cu F.Paste F.Mask))
+  (pad 2 smd rect (at 2.35 0) (size 1.25 3) (layers F.Cu F.Paste F.Mask))
+  (model :WALTER:smd_cap/c_1812.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+)

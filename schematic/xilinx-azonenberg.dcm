@@ -1,7 +1,3 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP XC3S50A/FTG256
-D BGA256/1mm
-$ENDCMP
-#
 #End Doc Library
