@@ -1,4 +1,4 @@
-(module CONN_HEADER_2.54MM_2x6_RA_PMOD_HOST (layer F.Cu) (tedit 590FB6F4)
+(module CONN_HEADER_2.54MM_2x6_RA_PMOD_HOST (layer F.Cu) (tedit 5C397C94)
   (fp_text reference REF** (at -5.08 7.27) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.15)))
   )
@@ -23,8 +23,8 @@
   (pad 11 thru_hole circle (at -3.81 1.27) (size 1.524 1.524) (drill 1) (layers *.Cu *.Mask F.SilkS))
   (pad 5 thru_hole circle (at -3.81 -1.27) (size 1.524 1.524) (drill 1) (layers *.Cu *.Mask F.SilkS))
   (pad 6 thru_hole circle (at -6.35 -1.27) (size 1.524 1.524) (drill 1) (layers *.Cu *.Mask F.SilkS))
-  (model :WALTER:pin_strip/pin_socket_6x2-90.wrl
-    (at (xyz 0 -0.1968503937007874 0))
+  (model :walter:pin_strip/pin_socket_6x2-90.wrl
+    (offset (xyz 0 -5 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
