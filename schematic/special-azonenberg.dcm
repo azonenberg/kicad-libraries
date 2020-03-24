@@ -6,6 +6,11 @@ K Single Pole Relay SPST-NO Sugar Cube
 F http://gfinder.findernet.com/assets/Series/356/S36EN.pdf
 $ENDCMP
 #
+$CMP NUP1301U
+D Diode
+K diode
+$ENDCMP
+#
 $CMP RELAY_COTO_9007
 D FINDER 32.21-x300, Single Pole Relay SPST-NO, 6A
 K Single Pole Relay SPST-NO
