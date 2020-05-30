@@ -1,4 +1,4 @@
-(module TESTPOINT_SMT_KEYSTONE_5016 (layer F.Cu) (tedit 53C619BB)
+(module TESTPOINT_SMT_KEYSTONE_5016 (layer F.Cu) (tedit 5ED1D6C0)
   (fp_text reference TESTPOINT_SMT_KEYSTONE_5016 (at 0 3) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -6,4 +6,9 @@
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (pad 1 smd rect (at 0 0) (size 4.7 3.43) (layers F.Cu F.Paste F.Mask))
+  (model :datasheets:Keystone/keystone-PN5016.STEP
+    (offset (xyz -1 0 2.25))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 0))
+  )
 )
