@@ -1,4 +1,4 @@
-(module DFN_4_0.65MM_1x1MM_TI_DQN (layer F.Cu) (tedit 5ECFC3F1)
+(module DFN_4_0.65MM_1x1MM_TI_DQN (layer F.Cu) (tedit 5EDAE68E)
   (solder_mask_margin -0.05)
   (solder_paste_margin -0.05)
   (fp_text reference REF** (at 0 1.275) (layer F.SilkS)
@@ -42,6 +42,10 @@
          (xy 0.23 -0.155) (xy -0.23 -0.155) (xy -0.23 -0.075) (xy 0 0.155) (xy 0.23 0.155)
 ) (width 0))
     ))
+  (pad ~ smd rect (at 0.525 -0.35) (size 0.25 0.25) (layers F.Paste))
+  (pad ~ smd rect (at -0.53 -0.35) (size 0.25 0.25) (layers F.Paste))
+  (pad ~ smd rect (at -0.53 0.35) (size 0.25 0.25) (layers F.Paste))
+  (pad ~ smd rect (at 0.525 0.35) (size 0.25 0.25) (layers F.Paste))
   (model :datasheets:TI/Vreg/DQN0004A.stp
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
