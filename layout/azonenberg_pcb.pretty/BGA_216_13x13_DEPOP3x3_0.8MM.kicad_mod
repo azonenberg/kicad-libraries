@@ -1,4 +1,4 @@
-(module BGA_216_13x13_DEPOP3x3_0.8MM (layer F.Cu) (tedit 5B6A1513)
+(module BGA_216_13x13_DEPOP3x3_0.8MM (layer F.Cu) (tedit 5EF1E21F)
   (fp_text reference REF** (at 0 8.5) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -226,4 +226,9 @@
   (pad N15 smd circle (at 5.6 4) (size 0.3 0.3) (layers F.Cu F.Paste F.Mask))
   (pad P15 smd circle (at 5.6 4.8) (size 0.3 0.3) (layers F.Cu F.Paste F.Mask))
   (pad R15 smd circle (at 5.6 5.6) (size 0.3 0.3) (layers F.Cu F.Paste F.Mask))
+  (model :walter:smd_bga/lfbga217.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 0.8 0.8 0.8))
+    (rotate (xyz 0 0 90))
+  )
 )
