@@ -1,5 +1,5 @@
-(module EIA_0402_RES_NOSILK_FLIPCHIP (layer F.Cu) (tedit 5E628288)
-  (solder_paste_margin -0.1)
+(module EIA_0402_RES_NOSILK_FLIPCHIP (layer F.Cu) (tedit 5F4B5CE7)
+  (solder_paste_margin -0.06)
   (fp_text reference EIA_0402_RES_NOSILK_FLIPCHIP (at 0 1.5) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
