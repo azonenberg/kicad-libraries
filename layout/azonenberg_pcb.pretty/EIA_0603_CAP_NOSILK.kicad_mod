@@ -1,4 +1,4 @@
-(module EIA_0603_CAP_NOSILK (layer F.Cu) (tedit 53C52A1B)
+(module EIA_0603_CAP_NOSILK (layer F.Cu) (tedit 600C47DC)
   (fp_text reference EIA_0603_CAP_NOSILK (at 0 1.5) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -7,7 +7,7 @@
   )
   (pad 1 smd rect (at -0.75 0) (size 0.8 0.8) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at 0.75 0) (size 0.8 0.8) (layers F.Cu F.Paste F.Mask))
-  (model /nfs4/home/azonenberg/kicad-libs/3rdparty/walter/smd_cap/c_0603.wrl
+  (model :walter:smd_cap/c_0603.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
