@@ -1,0 +1,14 @@
+(module CONN_TE_2-331677-6_EDGELAUNCH (layer F.Cu) (tedit 60BB1CF9)
+  (fp_text reference REF** (at 0.1 -2.25) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value CONN_TE_2-331677-6_EDGELAUNCH (at -0.3 -4) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad 1 smd rect (at 0 0) (size 2.86 1.4) (layers F.Cu F.Paste F.Mask))
+  (model :share:TE/Socket/c-0331677-26-ar1-3d.stp
+    (offset (xyz 2.1 0 0.5))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 90 0 90))
+  )
+)
