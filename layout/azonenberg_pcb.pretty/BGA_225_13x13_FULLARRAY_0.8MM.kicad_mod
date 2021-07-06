@@ -1,6 +1,7 @@
-(module BGA_225_13x13_FULLARRAY_0.8MM (layer F.Cu) (tedit 55A194EE)
+(module BGA_225_13x13_FULLARRAY_0.8MM (layer F.Cu) (tedit 60DC95ED)
   (solder_mask_margin 0.05)
   (solder_paste_ratio -0.1)
+  (attr smd)
   (fp_text reference REF** (at 0 -8) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.15)))
   )

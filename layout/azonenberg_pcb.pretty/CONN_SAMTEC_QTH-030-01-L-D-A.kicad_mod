@@ -1,4 +1,5 @@
-(module CONN_SAMTEC_QTH-030-01-L-D-A (layer F.Cu) (tedit 590FCB1C)
+(module CONN_SAMTEC_QTH-030-01-L-D-A (layer F.Cu) (tedit 60DC99C9)
+  (attr smd)
   (fp_text reference CONN_SAMTEC_QTH-030-01-L-D-A (at -9.2 -0.7 90) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )

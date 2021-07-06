@@ -1,4 +1,5 @@
-(module CONN_MMCX_LINX_CONNMMCX002SMD (layer F.Cu) (tedit 5C397C5E)
+(module CONN_MMCX_LINX_CONNMMCX002SMD (layer F.Cu) (tedit 60DC98DF)
+  (attr smd)
   (fp_text reference REF** (at 0 5.5) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.15)))
   )

@@ -1,5 +1,6 @@
-(module CONN_FFC_0.5MM_1x40_H125755CT-ND (layer F.Cu) (tedit 5EF214A7)
+(module CONN_FFC_0.5MM_1x40_H125755CT-ND (layer F.Cu) (tedit 60DC988A)
   (solder_paste_margin -20)
+  (attr smd)
   (fp_text reference REF** (at 0 6.5) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )

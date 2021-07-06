@@ -1,4 +1,5 @@
-(module CONN_U.FL_TE_1909763-1 (layer F.Cu) (tedit 5E1D901F)
+(module CONN_U.FL_TE_1909763-1 (layer F.Cu) (tedit 60DC9B25)
+  (attr smd)
   (fp_text reference REF** (at 0 3.8) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )

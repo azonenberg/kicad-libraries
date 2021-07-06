@@ -1,5 +1,6 @@
-(module CIRRUS_WM7236_MICROPHONE (layer F.Cu) (tedit 55A18196)
+(module CIRRUS_WM7236_MICROPHONE (layer F.Cu) (tedit 60DC9863)
   (solder_mask_margin 0.05)
+  (attr smd)
   (fp_text reference REF** (at 0 -4.6) (layer F.SilkS) hide
     (effects (font (size 1.5 1.5) (thickness 0.15)))
   )

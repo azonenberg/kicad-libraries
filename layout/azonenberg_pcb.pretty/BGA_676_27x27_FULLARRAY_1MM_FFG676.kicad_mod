@@ -1,4 +1,5 @@
-(module BGA_676_27x27_FULLARRAY_1MM_FFG676 (layer F.Cu) (tedit 5EF1D62A)
+(module BGA_676_27x27_FULLARRAY_1MM_FFG676 (layer F.Cu) (tedit 60DC960E)
+  (attr smd)
   (fp_text reference REF** (at 0.1 15.425) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )

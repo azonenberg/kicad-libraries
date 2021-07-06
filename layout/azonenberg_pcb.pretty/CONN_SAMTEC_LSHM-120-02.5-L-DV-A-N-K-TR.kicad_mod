@@ -1,4 +1,5 @@
-(module CONN_SAMTEC_LSHM-120-02.5-L-DV-A-N-K-TR (layer F.Cu) (tedit 5ECFDFEF)
+(module CONN_SAMTEC_LSHM-120-02.5-L-DV-A-N-K-TR (layer F.Cu) (tedit 60DC99B5)
+  (attr smd)
   (fp_text reference REF** (at 0 3.125) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )

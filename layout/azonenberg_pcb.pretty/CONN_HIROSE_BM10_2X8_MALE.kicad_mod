@@ -1,6 +1,7 @@
-(module CONN_HIROSE_BM10_2X8_MALE (layer F.Cu) (tedit 55A6F13C)
+(module CONN_HIROSE_BM10_2X8_MALE (layer F.Cu) (tedit 60DC98B1)
   (solder_mask_margin 0.05)
   (solder_paste_ratio -0.1)
+  (attr smd)
   (fp_text reference REF** (at 6.35 0.17) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.15)))
   )

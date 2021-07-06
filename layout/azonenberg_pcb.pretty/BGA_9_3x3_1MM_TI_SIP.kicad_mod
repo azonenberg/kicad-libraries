@@ -1,4 +1,4 @@
-(module BGA_9_3x3_1MM_TI_SIP (layer F.Cu) (tedit 58C5FB97)
+(module BGA_9_3x3_1MM_TI_SIP (layer F.Cu) (tedit 60DC959D)
   (solder_mask_margin 0.05)
   (attr smd)
   (fp_text reference REF** (at 0 5.2) (layer F.SilkS)

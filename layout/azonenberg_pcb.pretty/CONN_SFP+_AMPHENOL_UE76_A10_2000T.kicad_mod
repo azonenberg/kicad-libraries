@@ -1,4 +1,5 @@
-(module CONN_SFP+_AMPHENOL_UE76_A10_2000T (layer F.Cu) (tedit 5EE45651)
+(module CONN_SFP+_AMPHENOL_UE76_A10_2000T (layer F.Cu) (tedit 60DC9A58)
+  (attr smd)
   (fp_text reference REF** (at 0 9.75) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.15)))
   )

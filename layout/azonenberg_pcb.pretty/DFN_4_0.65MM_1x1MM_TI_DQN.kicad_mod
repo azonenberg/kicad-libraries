@@ -1,6 +1,7 @@
-(module DFN_4_0.65MM_1x1MM_TI_DQN (layer F.Cu) (tedit 5EDAE68E)
+(module DFN_4_0.65MM_1x1MM_TI_DQN (layer F.Cu) (tedit 60DC9C52)
   (solder_mask_margin -0.05)
   (solder_paste_margin -0.05)
+  (attr smd)
   (fp_text reference REF** (at 0 1.275) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )

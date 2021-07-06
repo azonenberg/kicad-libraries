@@ -1,4 +1,5 @@
-(module CONN_MOLEX_0533072071_0P8MM (layer F.Cu) (tedit 5907A85B)
+(module CONN_MOLEX_0533072071_0P8MM (layer F.Cu) (tedit 60DC994A)
+  (attr smd)
   (fp_text reference REF** (at 0 4.3) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )

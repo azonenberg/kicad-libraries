@@ -1,4 +1,5 @@
-(module BOURNS_PT61020EL (layer F.Cu) (tedit 5AFA74E9)
+(module BOURNS_PT61020EL (layer F.Cu) (tedit 60DC983A)
+  (attr smd)
   (fp_text reference REF** (at 0 11.6) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )

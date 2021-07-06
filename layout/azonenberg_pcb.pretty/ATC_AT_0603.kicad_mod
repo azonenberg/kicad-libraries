@@ -1,4 +1,5 @@
-(module ATC_AT_0603 (layer F.Cu) (tedit 59FAD6E9)
+(module ATC_AT_0603 (layer F.Cu) (tedit 60DC956F)
+  (attr smd)
   (fp_text reference ATC_AT_0603 (at 0 1.6) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )

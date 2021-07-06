@@ -1,6 +1,7 @@
-(module BGA_4_06x06_FULLARRAY_0.35MM (layer F.Cu) (tedit 55B84F41)
+(module BGA_4_06x06_FULLARRAY_0.35MM (layer F.Cu) (tedit 60DC957C)
   (solder_mask_margin -0.035)
   (solder_paste_ratio -0.15)
+  (attr smd)
   (fp_text reference REF** (at 0 -1.1) (layer F.SilkS) hide
     (effects (font (size 0.75 0.75) (thickness 0.15)))
   )

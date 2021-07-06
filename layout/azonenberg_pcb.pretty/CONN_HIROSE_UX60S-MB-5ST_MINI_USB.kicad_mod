@@ -1,4 +1,5 @@
-(module CONN_HIROSE_UX60S-MB-5ST_MINI_USB (layer F.Cu) (tedit 53E96C3D)
+(module CONN_HIROSE_UX60S-MB-5ST_MINI_USB (layer F.Cu) (tedit 60DC98B8)
+  (attr smd)
   (fp_text reference CONN_HIROSE_UX60S-MB-5ST_MINI_USB (at 0 6) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -20,7 +21,7 @@
   (pad 6 smd rect (at -1.7 -3.7) (size 3.8 1.6) (layers F.Cu F.Paste F.Mask))
   (pad 7 smd rect (at -1.7 3.7) (size 3.8 1.6) (layers F.Cu F.Paste F.Mask))
   (model /nfs4/home/azonenberg/kicad-libs/3rdparty/walter/conn_pc/usb_B_micro_smd.wrl
-    (at (xyz -0.1000000014901161 0 0))
+    (offset (xyz -2.539999999701976 0 0))
     (scale (xyz 1.25 1.25 1.25))
     (rotate (xyz 0 0 90))
   )

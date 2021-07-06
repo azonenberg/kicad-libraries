@@ -1,5 +1,6 @@
-(module BGA_484_22x22_FULLARRAY_1MM (layer F.Cu) (tedit 54A537E3)
+(module BGA_484_22x22_FULLARRAY_1MM (layer F.Cu) (tedit 60DC9609)
   (solder_mask_margin 0.05)
+  (attr smd)
   (fp_text reference BGA_484_22x22_FULLARRAY_1MM (at 6 12) (layer F.SilkS)
     (effects (font (size 0.508 0.457) (thickness 0.11425)))
   )

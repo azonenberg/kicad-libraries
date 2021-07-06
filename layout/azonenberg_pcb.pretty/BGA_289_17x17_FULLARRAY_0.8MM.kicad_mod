@@ -1,4 +1,5 @@
-(module BGA_289_17x17_FULLARRAY_0.8MM (layer F.Cu) (tedit 5E1BCBC9)
+(module BGA_289_17x17_FULLARRAY_0.8MM (layer F.Cu) (tedit 60DC95FF)
+  (attr smd)
   (fp_text reference REF** (at 0 9.925) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )

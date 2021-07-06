@@ -1,4 +1,5 @@
-(module CONN_SMA_EDGE_AMPHENOL_901_10309 (layer F.Cu) (tedit 6069CF4C)
+(module CONN_SMA_EDGE_AMPHENOL_901_10309 (layer F.Cu) (tedit 60DC9AB4)
+  (attr smd)
   (fp_text reference REF** (at 0 6.1) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )

@@ -1,4 +1,5 @@
-(module CONN_MOLEX_HDMI_WM10135CT-ND (layer F.Cu) (tedit 53D532FC)
+(module CONN_MOLEX_HDMI_WM10135CT-ND (layer F.Cu) (tedit 60DC9950)
+  (attr smd)
   (fp_text reference CONN_MOLEX_HDMI_WM10135CT-ND (at 0 -2.8) (layer F.SilkS)
     (effects (font (size 0.508 0.457) (thickness 0.11)))
   )
@@ -33,7 +34,7 @@
   (pad SHLD thru_hole oval (at 7.85 5.9) (size 1.5 2.3) (drill oval 0.9 1.7) (layers *.Cu *.Paste *.Mask))
   (pad SHLD thru_hole oval (at -7.85 5.9) (size 1.5 2.3) (drill oval 0.9 1.7) (layers *.Cu *.Paste *.Mask))
   (model /nfs/home/azonenberg/Documents/local/programming/mote/datasheets/molex-1051561008.x3d
-    (at (xyz -0.5600000000000001 -0.11 -0.375))
+    (offset (xyz -14.22399978637695 -2.79399995803833 -9.524999856948853))
     (scale (xyz 0.3937 0.3937 0.3937))
     (rotate (xyz -90 0 0))
   )

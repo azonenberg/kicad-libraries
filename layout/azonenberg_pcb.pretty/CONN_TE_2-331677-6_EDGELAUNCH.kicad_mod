@@ -1,4 +1,5 @@
-(module CONN_TE_2-331677-6_EDGELAUNCH (layer F.Cu) (tedit 60BB1CF9)
+(module CONN_TE_2-331677-6_EDGELAUNCH (layer F.Cu) (tedit 60DC9B1F)
+  (attr smd)
   (fp_text reference REF** (at 0.1 -2.25) (layer F.SilkS) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
