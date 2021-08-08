@@ -1,4 +1,4 @@
-(module QFN_16_0.5MM_3x3MM (layer F.Cu) (tedit 54AFBA37)
+(module QFN_16_0.5MM_3x3MM (layer F.Cu) (tedit 6108F82C)
   (solder_mask_margin 0.05)
   (solder_paste_ratio -0.1)
   (fp_text reference QFN_16_0.5MM_3x3MM (at 0 2.5) (layer F.SilkS)
@@ -37,7 +37,7 @@
   (pad PAD smd rect (at 0.25 -0.25) (size 0.5 0.5) (layers F.Cu F.Paste))
   (pad PAD smd rect (at 0.25 0.25) (size 0.5 0.5) (layers F.Cu F.Paste))
   (pad PAD smd rect (at -0.25 0.25) (size 0.5 0.5) (layers F.Cu F.Paste))
-  (model /nfs4/home/azonenberg/kicad-libs/3rdparty/walter/smd_qfn/qfn-16.wrl
+  (model :walter:smd_qfn/qfn-16.wrl
     (at (xyz 0 0 0))
     (scale (xyz 0.6 0.6 0.6))
     (rotate (xyz 0 0 0))

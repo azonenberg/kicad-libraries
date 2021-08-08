@@ -1,4 +1,4 @@
-(module CONN_HEADER_2.54MM_1x3 (layer F.Cu) (tedit 586463AC)
+(module CONN_HEADER_2.54MM_1x3 (layer F.Cu) (tedit 6108F548)
   (fp_text reference REF** (at -1.54 3.5) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.15)))
   )
@@ -13,7 +13,7 @@
   (pad 1 thru_hole circle (at -2.54 0) (size 1.524 1.524) (drill 1) (layers *.Cu *.Mask F.SilkS))
   (pad 2 thru_hole circle (at 0 0) (size 1.524 1.524) (drill 1) (layers *.Cu *.Mask F.SilkS))
   (pad 3 thru_hole circle (at 2.54 0) (size 1.524 1.524) (drill 1) (layers *.Cu *.Mask F.SilkS))
-  (model /nfs4/home/azonenberg/kicad-libs/3rdparty/walter/pin_strip/pin_strip_3.wrl
+  (model :walter:pin_strip/pin_strip_3.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

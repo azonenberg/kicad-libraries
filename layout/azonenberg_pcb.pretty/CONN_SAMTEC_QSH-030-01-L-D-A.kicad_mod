@@ -1,4 +1,4 @@
-(module CONN_SAMTEC_QSH-030-01-L-D-A (layer F.Cu) (tedit 60DC99BB)
+(module CONN_SAMTEC_QSH-030-01-L-D-A (layer F.Cu) (tedit 6108F6F3)
   (attr smd)
   (fp_text reference CONN_SAMTEC_QSH-030-01-L-D-A (at -6.5 0 90) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
@@ -91,7 +91,7 @@
   (pad GND smd rect (at 0 3.191) (size 0.64 4.7) (layers F.Cu F.Paste F.Mask))
   (pad 59 smd rect (at -2.865 7.25) (size 2.27 0.279) (layers F.Cu F.Paste F.Mask))
   (pad "" thru_hole circle (at 2.67 -10.065) (size 1.02 1.02) (drill 1.02) (layers *.Cu *.Mask F.SilkS))
-  (model :SAMTEC:QSH-030-01-F-D-A.stp
+  (model :share:Samtec/QSH-030-01-L-D-A.stp
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 90))

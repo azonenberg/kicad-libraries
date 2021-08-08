@@ -1,4 +1,4 @@
-(module BGA_24_6x8_DEPOP1_1MM (layer F.Cu) (tedit 60DC95A9)
+(module BGA_24_6x8_DEPOP1_1MM (layer F.Cu) (tedit 6108FF9A)
   (attr smd)
   (fp_text reference REF** (at 0 5.5) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.15)))
@@ -35,7 +35,7 @@
   (pad E3 smd circle (at 0 2) (size 0.3 0.3) (layers F.Cu F.Paste F.Mask))
   (pad E4 smd circle (at 1 2) (size 0.3 0.3) (layers F.Cu F.Paste F.Mask))
   (pad E5 smd circle (at 2 2) (size 0.3 0.3) (layers F.Cu F.Paste F.Mask))
-  (model :WALTER:smd_bga/tfbga48.wrl
+  (model :walter:smd_bga/tfbga48.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
