@@ -1,4 +1,4 @@
-(module EIA_0805_INDUCTOR_NOSILK (layer F.Cu) (tedit 53D26553)
+(module EIA_0805_INDUCTOR_NOSILK (layer F.Cu) (tedit 6195BD1E)
   (fp_text reference EIA_0805_INDUCTOR_NOSILK (at -0.25 1.25) (layer F.SilkS)
     (effects (font (size 0.508 0.457) (thickness 0.11)))
   )
@@ -7,7 +7,7 @@
   )
   (pad 1 smd rect (at -0.9 0) (size 0.8 1.2) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at 0.9 0) (size 0.8 1.2) (layers F.Cu F.Paste F.Mask))
-  (model /nfs4/home/azonenberg/kicad-libs/3rdparty/walter/smd_inductors/inductor_smd_0805.wrl
+  (model :walter:smd_inductors/inductor_smd_0805.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
