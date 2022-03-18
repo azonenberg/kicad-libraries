@@ -1,0 +1,32 @@
+(module CONN_SMPM_AMPHENOL_925-169J-51PT (layer F.Cu) (tedit 619EDE23)
+  (fp_text reference REF** (at 0 7) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value CONN_SMPM_AMPHENOL_925-169J-51PT (at 0 8.5) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad 1 smd rect (at -2.605 0) (size 5.21 0.4) (layers F.Cu F.Paste F.Mask))
+  (pad 2 smd custom (at -2.605 1.87) (size 5.21 1.64) (layers F.Cu F.Paste F.Mask)
+    (zone_connect 0)
+    (options (clearance outline) (anchor rect))
+    (primitives
+      (gr_poly (pts
+         (xy 2.605 0.82) (xy 6.795 0.82) (xy 6.795 -0.27) (xy 2.605 -0.27)) (width 0))
+    ))
+  (pad 2 smd custom (at -2.605 -1.87) (size 5.21 1.64) (layers F.Cu F.Paste F.Mask)
+    (zone_connect 0)
+    (options (clearance outline) (anchor rect))
+    (primitives
+      (gr_poly (pts
+         (xy 2.605 -0.82) (xy 6.795 -0.82) (xy 6.795 0.27) (xy 2.605 0.27)) (width 0))
+    ))
+  (pad "" np_thru_hole circle (at 0.2 -1.3) (size 0.8 0.8) (drill 0.75) (layers *.Cu *.Mask)
+    (zone_connect 0))
+  (pad "" np_thru_hole circle (at 0.2 1.3) (size 0.8 0.8) (drill 0.75) (layers *.Cu *.Mask)
+    (zone_connect 0))
+  (model :share:Amphenol/SMPM/925-169J-51PT.stp
+    (offset (xyz 4.2 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 180))
+  )
+)

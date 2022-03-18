@@ -1,6 +1,6 @@
-(module EIA_0402_LED (layer F.Cu) (tedit 60DC9311)
+(module EIA_0402_LED (layer F.Cu) (tedit 61F8FAD0)
   (attr smd)
-  (fp_text reference EIA_0402_RES_NOSILK (at 0 1.5) (layer F.SilkS)
+  (fp_text reference EIA_0402_LED (at 0 1.5) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_text value VAL** (at 0 3.5) (layer F.SilkS) hide
@@ -8,9 +8,9 @@
   )
   (pad 1 smd rect (at -0.597 0) (size 0.635 0.61) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at 0.597 0) (size 0.635 0.61) (layers F.Cu F.Paste F.Mask))
-  (model /nfs4/home/azonenberg/kicad-libs/3rdparty/walter/smd_resistors/r_0402.wrl
+  (model :walter:smd_leds/led_0402.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
+    (rotate (xyz 0 0 180))
   )
 )
