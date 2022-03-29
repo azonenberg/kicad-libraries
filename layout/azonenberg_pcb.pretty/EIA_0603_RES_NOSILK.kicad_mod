@@ -1,14 +1,19 @@
-(module EIA_0603_RES_NOSILK (layer F.Cu) (tedit 53C52A47)
-  (fp_text reference EIA_0603_RES_NOSILK (at 0 1.6) (layer F.SilkS)
+(footprint "EIA_0603_RES_NOSILK" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 6242725E)
+  (attr smd)
+  (fp_text reference "EIA_0603_RES_NOSILK" (at 0 1.6) (layer "F.SilkS")
     (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 823657d7-673c-487e-9703-fc6503a02c6c)
   )
-  (fp_text value VAL** (at 0.05 3.1) (layer F.SilkS) hide
+  (fp_text value "VAL**" (at 0.05 3.1) (layer "F.SilkS") hide
     (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 82dfc74a-786e-4634-8b7f-4f5dfb0ea099)
   )
-  (pad 1 smd rect (at -0.775 0) (size 0.787 0.864) (layers F.Cu F.Paste F.Mask))
-  (pad 2 smd rect (at 0.775 0) (size 0.787 0.864) (layers F.Cu F.Paste F.Mask))
-  (model /nfs4/home/azonenberg/kicad-libs/3rdparty/walter/smd_resistors/r_0603.wrl
-    (at (xyz 0 0 0))
+  (pad "1" smd rect (at -0.775 0) (size 0.787 0.864) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 250641ef-44c0-4b57-a242-3f5660bdd563))
+  (pad "2" smd rect (at 0.775 0) (size 0.787 0.864) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp f5fd2d31-a6c9-446b-895f-af7da774f390))
+  (model "/nfs4/home/azonenberg/kicad-libs/3rdparty/walter/smd_resistors/r_0603.wrl"
+    (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )

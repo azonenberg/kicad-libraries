@@ -1,14 +1,19 @@
-(module EIA_0603_CAP_NOSILK (layer F.Cu) (tedit 600C47DC)
-  (fp_text reference EIA_0603_CAP_NOSILK (at 0 1.5) (layer F.SilkS)
+(footprint "EIA_0603_CAP_NOSILK" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 62427297)
+  (attr smd)
+  (fp_text reference "EIA_0603_CAP_NOSILK" (at 0 1.5) (layer "F.SilkS")
     (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 6f9b7307-7dae-469a-9fb5-dbc7f883d024)
   )
-  (fp_text value VAL** (at 0 3) (layer F.SilkS) hide
+  (fp_text value "VAL**" (at 0 3) (layer "F.SilkS") hide
     (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 0e300aca-1810-4717-9a4e-da4760fa7f9f)
   )
-  (pad 1 smd rect (at -0.75 0) (size 0.8 0.8) (layers F.Cu F.Paste F.Mask))
-  (pad 2 smd rect (at 0.75 0) (size 0.8 0.8) (layers F.Cu F.Paste F.Mask))
-  (model :walter:smd_cap/c_0603.wrl
-    (at (xyz 0 0 0))
+  (pad "1" smd rect (at -0.75 0) (size 0.8 0.8) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 623b2967-4fde-408c-9047-ebab375b0f2f))
+  (pad "2" smd rect (at 0.75 0) (size 0.8 0.8) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 2de9484a-583c-4850-8dcc-660b2806e43d))
+  (model ":walter:smd_cap/c_0603.wrl"
+    (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
