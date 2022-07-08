@@ -2540,11 +2540,11 @@
       )
     )
     (symbol "ADR510_1_1"
-      (pin power_in line (at -3.81 3.81 0) (length 3.81)
+      (pin passive line (at -3.81 3.81 0) (length 3.81)
         (name "V+" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
-      (pin power_in line (at -3.81 1.27 0) (length 3.81)
+      (pin passive line (at -3.81 1.27 0) (length 3.81)
         (name "V-" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
