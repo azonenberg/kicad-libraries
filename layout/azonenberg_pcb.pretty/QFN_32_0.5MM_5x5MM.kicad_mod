@@ -2,7 +2,7 @@
   (layer "F.Cu")
   (tedit 5E805379)
   (solder_mask_margin 0.05)
-  (attr through_hole)
+  (attr smd)
   (fp_text reference "REF**" (at 0.05 4.2) (layer "F.SilkS")
     (effects (font (size 1.5 1.5) (thickness 0.15)))
     (tstamp b37093d4-ff61-4693-bbde-f2a98b51b8bc)

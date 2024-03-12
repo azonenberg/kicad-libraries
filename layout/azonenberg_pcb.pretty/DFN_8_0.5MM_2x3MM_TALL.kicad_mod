@@ -3,7 +3,7 @@
   (tedit 5EF1E0CE)
   (solder_mask_margin 0.05)
   (solder_paste_ratio -0.1)
-  (attr through_hole)
+  (attr smd)
   (fp_text reference "DFN_8_0.5MM_2x3MM_TALL" (at 0.25 2.6) (layer "F.SilkS")
     (effects (font (size 0.508 0.457) (thickness 0.11425)))
     (tstamp fd4a5f80-b2c1-4874-8a8e-b90e70f05c6b)
