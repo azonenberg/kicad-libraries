@@ -1,20 +1,89 @@
-(footprint "EIA_0402_RES_NOSILK" (version 20211014) (generator pcbnew)
-  (layer "F.Cu")
-  (tedit 62427249)
-  (attr smd)
-  (fp_text reference "EIA_0402_RES_NOSILK" (at 0 1.5) (layer "F.SilkS")
-    (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp 16de0aac-c37a-4524-843f-9cb0c3b8c564)
-  )
-  (fp_text value "VAL**" (at 0 3.5) (layer "F.SilkS") hide
-    (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp 819484a5-3861-4b10-80b0-109fd67162df)
-  )
-  (pad "1" smd rect (at -0.5 0) (size 0.5 0.5) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp a6a4455c-503d-4ed4-be96-5afe9f89f9d1))
-  (pad "2" smd rect (at 0.5 0) (size 0.5 0.5) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 3f69028d-5b0c-4380-95a9-3c49c776cfa2))
-  (model ":walter:smd_resistors/r_0402.wrl"
-    (offset (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
+(footprint "EIA_0402_RES_NOSILK"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "EIA_0402_RES_NOSILK"
+		(at 0 1.5 0)
+		(layer "F.SilkS")
+		(uuid "16de0aac-c37a-4524-843f-9cb0c3b8c564")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "VAL**"
+		(at 0 3.5 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "819484a5-3861-4b10-80b0-109fd67162df")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "32b7a2d7-0390-4479-853f-9c722da02330")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "809abcc8-9add-4d4b-837d-af2aa52ee4ef")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "607ce20c-4337-4a67-8e8b-d10915b03e6e")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(pad "1" smd rect
+		(at -0.5 0)
+		(size 0.5 0.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "a6a4455c-503d-4ed4-be96-5afe9f89f9d1")
+	)
+	(pad "2" smd rect
+		(at 0.5 0)
+		(size 0.5 0.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "3f69028d-5b0c-4380-95a9-3c49c776cfa2")
+	)
+	(model ":WALTER:smd_resistors/r_0402.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

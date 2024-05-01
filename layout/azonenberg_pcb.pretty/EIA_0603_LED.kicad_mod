@@ -1,21 +1,99 @@
-(footprint "EIA_0603_LED" (version 20211014) (generator pcbnew)
-  (layer "F.Cu")
-  (tedit 6108F586)
-  (attr smd)
-  (fp_text reference "EIA_0603_LED" (at 0 1.4) (layer "F.SilkS")
-    (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp 81b40bd7-5c84-48c3-b91f-d486acd9f956)
-  )
-  (fp_text value "VAL**" (at 0.05 2.95) (layer "F.SilkS") hide
-    (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp aa4e0b7a-4dac-4fc3-bc71-b4206f4aa4ad)
-  )
-  (fp_line (start -1.5 -0.6) (end -1.5 0.6) (layer "F.SilkS") (width 0.15) (tstamp 69c3cf6d-24b2-4432-9f82-1600a60d8571))
-  (pad "1" smd rect (at -0.75 0) (size 0.8 0.8) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 03824482-8a52-4d7e-890a-0cf90d3ace00))
-  (pad "2" smd rect (at 0.75 0) (size 0.8 0.8) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp ce7bdb50-ca29-4f64-9c22-957895fea0ce))
-  (model ":walter:smd_leds/led_0603.wrl"
-    (offset (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 180))
-  )
+(footprint "EIA_0603_LED"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "EIA_0603_LED"
+		(at 0 1.4 0)
+		(layer "F.SilkS")
+		(uuid "81b40bd7-5c84-48c3-b91f-d486acd9f956")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "VAL**"
+		(at 0.05 2.95 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "aa4e0b7a-4dac-4fc3-bc71-b4206f4aa4ad")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "571f8a47-8821-485c-a169-9f3b42839cc5")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7873a471-14a6-492c-9d1a-a0369fcb1676")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5c348165-72f2-43a7-847f-7b1c867fcd40")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.5 -0.6)
+		(end -1.5 0.6)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "69c3cf6d-24b2-4432-9f82-1600a60d8571")
+	)
+	(pad "1" smd rect
+		(at -0.75 0)
+		(size 0.8 0.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "03824482-8a52-4d7e-890a-0cf90d3ace00")
+	)
+	(pad "2" smd rect
+		(at 0.75 0)
+		(size 0.8 0.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "ce7bdb50-ca29-4f64-9c22-957895fea0ce")
+	)
+	(model ":WALTER:smd_leds/led_0603.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 180)
+		)
+	)
 )

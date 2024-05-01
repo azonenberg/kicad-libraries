@@ -1,24 +1,145 @@
-(module OSCILLATOR_LVDS_7.0x5.0 (layer F.Cu) (tedit 5E86F341)
-  (solder_mask_margin 0.05)
-  (solder_paste_ratio -0.1)
-  (fp_text reference OSCILLATOR_LVDS_7.0x5.0 (at 0.5 3.75) (layer F.SilkS)
-    (effects (font (size 0.508 0.457) (thickness 0.11425)))
-  )
-  (fp_text value VAL** (at 0 4.9) (layer F.SilkS) hide
-    (effects (font (size 0.508 0.457) (thickness 0.11425)))
-  )
-  (fp_line (start -3.65 2.8) (end -3.4 3.05) (layer F.SilkS) (width 0.15))
-  (fp_line (start -3.65 3.05) (end -3.65 2.8) (layer F.SilkS) (width 0.15))
-  (fp_line (start -3.4 3.05) (end -3.65 3.05) (layer F.SilkS) (width 0.15))
-  (pad 1 smd rect (at -2.54 1.9) (size 1.6 1.6) (layers F.Cu F.Paste F.Mask))
-  (pad 2 smd rect (at 0 1.9) (size 1.6 1.6) (layers F.Cu F.Paste F.Mask))
-  (pad 3 smd rect (at 2.54 1.9) (size 1.6 1.6) (layers F.Cu F.Paste F.Mask))
-  (pad 4 smd rect (at 2.54 -1.9) (size 1.6 1.6) (layers F.Cu F.Paste F.Mask))
-  (pad 5 smd rect (at 0 -1.9) (size 1.6 1.6) (layers F.Cu F.Paste F.Mask))
-  (pad 6 smd rect (at -2.54 -1.9) (size 1.6 1.6) (layers F.Cu F.Paste F.Mask))
-  (model /nfs4/home/azonenberg/kicad-libs/3rdparty/walter/smd_qfn/dfn-6_clock.wrl
-    (at (xyz 0 0 0))
-    (scale (xyz 0.5 0.5 0.25))
-    (rotate (xyz 0 0 0))
-  )
+(footprint "OSCILLATOR_LVDS_7.0x5.0"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "OSCILLATOR_LVDS_7.0x5.0"
+		(at 0.5 3.75 0)
+		(layer "F.SilkS")
+		(uuid "ed1830d6-817b-4970-a06b-3f7cebc81364")
+		(effects
+			(font
+				(size 0.508 0.457)
+				(thickness 0.11425)
+			)
+		)
+	)
+	(property "Value" "VAL**"
+		(at 0 4.9 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "789e4402-ed29-4088-aa05-7881b985e15e")
+		(effects
+			(font
+				(size 0.508 0.457)
+				(thickness 0.11425)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "baf29207-5526-49bd-8bf0-3169a692607a")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8c4728b0-5578-4a31-9bec-af25c5c1ff7f")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2dedc859-834d-4734-94a9-4eba449ba2ee")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(solder_mask_margin 0.05)
+	(solder_paste_ratio -0.1)
+	(attr through_hole)
+	(fp_line
+		(start -3.65 2.8)
+		(end -3.4 3.05)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f17e8469-5887-495e-94b7-197319328d9f")
+	)
+	(fp_line
+		(start -3.65 3.05)
+		(end -3.65 2.8)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8166d2fd-251e-4c4a-8e1d-be078850ede7")
+	)
+	(fp_line
+		(start -3.4 3.05)
+		(end -3.65 3.05)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9c5d9932-9159-4dd2-90b9-e67250204d18")
+	)
+	(pad "1" smd rect
+		(at -2.54 1.9)
+		(size 1.6 1.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "9d6154bf-a7d4-4167-b95b-903b5ffae98c")
+	)
+	(pad "2" smd rect
+		(at 0 1.9)
+		(size 1.6 1.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "5c08cfe1-3978-47f4-9560-b04f9c358deb")
+	)
+	(pad "3" smd rect
+		(at 2.54 1.9)
+		(size 1.6 1.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "fb088700-c8d5-403d-a55b-d9c878746275")
+	)
+	(pad "4" smd rect
+		(at 2.54 -1.9)
+		(size 1.6 1.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "6fee76b3-97d2-427e-adf9-bdd187f6d69a")
+	)
+	(pad "5" smd rect
+		(at 0 -1.9)
+		(size 1.6 1.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "06e3a0b5-3f61-4cbe-bd6b-bd449aa1338e")
+	)
+	(pad "6" smd rect
+		(at -2.54 -1.9)
+		(size 1.6 1.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "721b55ab-8a69-452d-8b0d-5a216063ec30")
+	)
+	(model ":WALTER:smd_qfn/dfn-6_clock.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 0.5 0.5 0.25)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

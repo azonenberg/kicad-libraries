@@ -1,26 +1,130 @@
-(footprint "CONN_MOLEX_PICOBLADE_5POS_0532610571" (version 20211014) (generator pcbnew)
-  (layer "F.Cu")
-  (tedit 0)
-  (attr smd)
-  (fp_text reference "REF**" (at 0 2 unlocked) (layer "F.SilkS")
-    (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp cbd8ee1f-1a0f-4c46-b5f4-b4731f8f49e4)
-  )
-  (fp_text value "CONN_MOLEX_PICOBLADE_5POS_0532610571" (at 0 3.5 unlocked) (layer "F.Fab")
-    (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp 24a3953e-c618-408c-92ba-b8865547e99b)
-  )
-  (fp_line (start 3.5 0.5) (end 3.5 -0.5) (layer "F.SilkS") (width 0.15) (tstamp cd3e07d7-9be9-482d-9b54-f07d7485503b))
-  (pad "" smd rect (at -5.05 -3.1) (size 2.1 3) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp b73b7acd-8683-4ce5-ac91-1ea9fb97af65))
-  (pad "" smd rect (at 5.05 -3.1) (size 2.1 3) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp e6d16280-ac14-48a2-aef3-974d751836e2))
-  (pad "1" smd rect (at 2.5 0) (size 0.8 1.6) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 663e3727-ae7b-49f0-8c5a-f0a52a7f464e))
-  (pad "2" smd rect (at 1.25 0) (size 0.8 1.6) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 4c88fa13-a3e1-4c34-a00f-57b0381c608b))
-  (pad "3" smd rect (at 0 0) (size 0.8 1.6) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp a30670d1-381b-4562-882f-f3a067e5dc97))
-  (pad "4" smd rect (at -1.25 0) (size 0.8 1.6) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 3fb09f14-aa06-4d5d-bce7-0b4f9f906ccd))
-  (pad "5" smd rect (at -2.5 0) (size 0.8 1.6) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 6c0fbe9f-fb28-4485-99ed-4781d733d37c))
-  (model ":share:Molex/PicoBlade/5pos/532610571.stp"
-    (offset (xyz 0 6 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 180))
-  )
+(footprint "CONN_MOLEX_PICOBLADE_5POS_0532610571"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 2 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "cbd8ee1f-1a0f-4c46-b5f4-b4731f8f49e4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "CONN_MOLEX_PICOBLADE_5POS_0532610571"
+		(at 0 3.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "24a3953e-c618-408c-92ba-b8865547e99b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fe7ed120-4c87-47ac-afa9-15b6c6e9c321")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4546e6f4-f557-4d6f-a9c7-6c6c79299555")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "54ac18a7-ba3b-4c02-91ef-736bd120f1c3")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start 3.5 0.5)
+		(end 3.5 -0.5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cd3e07d7-9be9-482d-9b54-f07d7485503b")
+	)
+	(pad "" smd rect
+		(at -5.05 -3.1)
+		(size 2.1 3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "b73b7acd-8683-4ce5-ac91-1ea9fb97af65")
+	)
+	(pad "" smd rect
+		(at 5.05 -3.1)
+		(size 2.1 3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "e6d16280-ac14-48a2-aef3-974d751836e2")
+	)
+	(pad "1" smd rect
+		(at 2.5 0)
+		(size 0.8 1.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "663e3727-ae7b-49f0-8c5a-f0a52a7f464e")
+	)
+	(pad "2" smd rect
+		(at 1.25 0)
+		(size 0.8 1.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "4c88fa13-a3e1-4c34-a00f-57b0381c608b")
+	)
+	(pad "3" smd rect
+		(at 0 0)
+		(size 0.8 1.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "a30670d1-381b-4562-882f-f3a067e5dc97")
+	)
+	(pad "4" smd rect
+		(at -1.25 0)
+		(size 0.8 1.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "3fb09f14-aa06-4d5d-bce7-0b4f9f906ccd")
+	)
+	(pad "5" smd rect
+		(at -2.5 0)
+		(size 0.8 1.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "6c0fbe9f-fb28-4485-99ed-4781d733d37c")
+	)
+	(model ":SHARE:Molex/PicoBlade/5pos/532610571.stp"
+		(offset
+			(xyz 0 6 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 180)
+		)
+	)
 )

@@ -1,15 +1,89 @@
-(module EIA_1812_CAP_NOSILK (layer F.Cu) (tedit 5EF1EE7A)
-  (fp_text reference EIA_1812_CAP_NOSILK (at -0.05 2.65) (layer F.SilkS)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_text value VAL** (at -0.05 4.15) (layer F.SilkS) hide
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (pad 1 smd rect (at -2.35 0) (size 1.25 3) (layers F.Cu F.Paste F.Mask))
-  (pad 2 smd rect (at 2.35 0) (size 1.25 3) (layers F.Cu F.Paste F.Mask))
-  (model :walter:smd_cap/c_1812.wrl
-    (at (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
+(footprint "EIA_1812_CAP_NOSILK"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "EIA_1812_CAP_NOSILK"
+		(at -0.05 2.65 0)
+		(layer "F.SilkS")
+		(uuid "5cb8504f-307d-48e1-9517-f93d6f96a4b1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "VAL**"
+		(at -0.05 4.15 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "f0233757-bbcb-4d17-bc51-4508506cf3c1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "807cc7f9-5cd7-46ab-a325-f36d8569dfaf")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d43a6e29-5bdb-4c7e-8ed0-2a92c7a106fb")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4963f785-4e30-4190-91bf-ff3adf6fe315")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(pad "1" smd rect
+		(at -2.35 0)
+		(size 1.25 3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "5a05ffea-4e8e-436a-bd3e-fb6545f34025")
+	)
+	(pad "2" smd rect
+		(at 2.35 0)
+		(size 1.25 3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "5766af3d-47d1-460b-a7ef-a86165593e61")
+	)
+	(model ":WALTER:smd_cap/c_1812.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

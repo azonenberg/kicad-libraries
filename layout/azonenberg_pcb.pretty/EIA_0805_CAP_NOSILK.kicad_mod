@@ -1,20 +1,89 @@
-(footprint "EIA_0805_CAP_NOSILK" (version 20211014) (generator pcbnew)
-  (layer "F.Cu")
-  (tedit 62358296)
-  (attr smd)
-  (fp_text reference "EIA_0805_CAP_NOSILK" (at -0.25 1.25) (layer "F.SilkS")
-    (effects (font (size 0.508 0.457) (thickness 0.11)))
-    (tstamp 959f2558-24a6-4891-b649-c5947a241eb1)
-  )
-  (fp_text value "VAL**" (at 0.25 2) (layer "F.SilkS") hide
-    (effects (font (size 0.508 0.457) (thickness 0.11)))
-    (tstamp 9bff9f29-888e-4ac0-b717-fb84c24f9183)
-  )
-  (pad "1" smd rect (at -0.9 0) (size 0.8 1.6) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 170ddddb-561b-4785-a2d0-3a64f2c580ad))
-  (pad "2" smd rect (at 0.9 0) (size 0.8 1.6) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp bc2ea327-a618-4913-869a-cf7845afeb00))
-  (model ":walter:smd_cap/c_0805.wrl"
-    (offset (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
+(footprint "EIA_0805_CAP_NOSILK"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "EIA_0805_CAP_NOSILK"
+		(at -0.25 1.25 0)
+		(layer "F.SilkS")
+		(uuid "959f2558-24a6-4891-b649-c5947a241eb1")
+		(effects
+			(font
+				(size 0.508 0.457)
+				(thickness 0.11)
+			)
+		)
+	)
+	(property "Value" "VAL**"
+		(at 0.25 2 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "9bff9f29-888e-4ac0-b717-fb84c24f9183")
+		(effects
+			(font
+				(size 0.508 0.457)
+				(thickness 0.11)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ffdec219-b70b-4d6b-adce-f3d73e7ae488")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ae2123d4-8010-403a-beb8-7d6cd3b5356a")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "da6a69ff-c9ce-4027-94c2-15dea1799857")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(pad "1" smd rect
+		(at -0.9 0)
+		(size 0.8 1.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "170ddddb-561b-4785-a2d0-3a64f2c580ad")
+	)
+	(pad "2" smd rect
+		(at 0.9 0)
+		(size 0.8 1.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "bc2ea327-a618-4913-869a-cf7845afeb00")
+	)
+	(model ":WALTER:smd_cap/c_0805.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

@@ -1,15 +1,89 @@
-(module EIA_0603_INDUCTOR_NOSILK (layer F.Cu) (tedit 6108F9D5)
-  (fp_text reference EIA_0603_INDUCTOR_NOSILK (at 0 1) (layer F.SilkS)
-    (effects (font (size 0.508 0.457) (thickness 0.11)))
-  )
-  (fp_text value VAL** (at 0 1.75) (layer F.SilkS) hide
-    (effects (font (size 0.508 0.457) (thickness 0.11)))
-  )
-  (pad 1 smd rect (at -0.75 0) (size 0.8 0.8) (layers F.Cu F.Paste F.Mask))
-  (pad 2 smd rect (at 0.75 0) (size 0.8 0.8) (layers F.Cu F.Paste F.Mask))
-  (model :walter:smd_inductors/inductor_smd_0603.wrl
-    (at (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
+(footprint "EIA_0603_INDUCTOR_NOSILK"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "EIA_0603_INDUCTOR_NOSILK"
+		(at 0 1 0)
+		(layer "F.SilkS")
+		(uuid "c995644a-d744-44b0-a349-7bea28167213")
+		(effects
+			(font
+				(size 0.508 0.457)
+				(thickness 0.11)
+			)
+		)
+	)
+	(property "Value" "VAL**"
+		(at 0 1.75 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "2c60d002-1161-481e-a043-3ce72d57eadc")
+		(effects
+			(font
+				(size 0.508 0.457)
+				(thickness 0.11)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b909bb27-ce81-4249-9a29-460817df9947")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "49b72c79-94d2-4e0e-ab49-acd912390378")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "158d2f70-88e0-4254-80dd-6a0fb3c8c975")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(pad "1" smd rect
+		(at -0.75 0)
+		(size 0.8 0.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "aff289f7-a604-422f-a06e-e70c37849cdc")
+	)
+	(pad "2" smd rect
+		(at 0.75 0)
+		(size 0.8 0.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "17b16255-3826-48f3-b025-44396f17a184")
+	)
+	(model ":WALTER:smd_inductors/inductor_smd_0603.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

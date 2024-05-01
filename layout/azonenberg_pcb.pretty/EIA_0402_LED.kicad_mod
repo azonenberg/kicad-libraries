@@ -1,16 +1,89 @@
-(module EIA_0402_LED (layer F.Cu) (tedit 61F8FAD0)
-  (attr smd)
-  (fp_text reference EIA_0402_LED (at 0 1.5) (layer F.SilkS)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_text value VAL** (at 0 3.5) (layer F.SilkS) hide
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (pad 1 smd rect (at -0.597 0) (size 0.635 0.61) (layers F.Cu F.Paste F.Mask))
-  (pad 2 smd rect (at 0.597 0) (size 0.635 0.61) (layers F.Cu F.Paste F.Mask))
-  (model :walter:smd_leds/led_0402.wrl
-    (at (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 180))
-  )
+(footprint "EIA_0402_LED"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "EIA_0402_LED"
+		(at 0 1.5 0)
+		(layer "F.SilkS")
+		(uuid "06e2d163-92e3-4472-8ab7-e298c4dde7fc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "VAL**"
+		(at 0 3.5 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "1fa42b36-24f4-4dfc-9f22-f4fb5c15ff1e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5977c8d5-1758-4650-bb92-bf4bfb394e34")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e89f9a3b-fa69-4492-82fe-7f7c7d05f133")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1a53ccfc-53b0-419a-bab2-304174355645")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(pad "1" smd rect
+		(at -0.597 0)
+		(size 0.635 0.61)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "8691c348-87d0-40e9-a083-6cc512436323")
+	)
+	(pad "2" smd rect
+		(at 0.597 0)
+		(size 0.635 0.61)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "cbc952b7-d5e4-4a03-8b1e-1d800ac80dd7")
+	)
+	(model ":WALTER:smd_leds/led_0402.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 180)
+		)
+	)
 )

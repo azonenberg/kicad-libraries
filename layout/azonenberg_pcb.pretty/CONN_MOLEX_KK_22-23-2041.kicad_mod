@@ -1,24 +1,178 @@
-(module CONN_MOLEX_KK_22-23-2041 (layer F.Cu) (tedit 5EF1A77B)
-  (fp_text reference REF** (at 0 6.25) (layer F.SilkS)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_text value CONN_MOLEX_KK_22-23-2041 (at 0 5.25) (layer F.Fab)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_line (start -5.5 -3.5) (end -5.5 3.5) (layer F.SilkS) (width 0.15))
-  (fp_line (start -5.5 3.5) (end 5.5 3.5) (layer F.SilkS) (width 0.15))
-  (fp_line (start 5.5 3.5) (end 5.5 -3.5) (layer F.SilkS) (width 0.15))
-  (fp_line (start 5.5 -3.5) (end -5.5 -3.5) (layer F.SilkS) (width 0.15))
-  (fp_line (start -4 -3.5) (end -4 -2.5) (layer F.SilkS) (width 0.15))
-  (fp_line (start -4 -2.5) (end 4 -2.5) (layer F.SilkS) (width 0.15))
-  (fp_line (start 4 -2.5) (end 4 -3.5) (layer F.SilkS) (width 0.15))
-  (pad 4 thru_hole circle (at -3.81 0) (size 1.45 1.45) (drill 1.02) (layers *.Cu *.Mask))
-  (pad 3 thru_hole circle (at -1.27 0) (size 1.45 1.45) (drill 1.02) (layers *.Cu *.Mask))
-  (pad 2 thru_hole circle (at 1.27 0) (size 1.45 1.45) (drill 1.02) (layers *.Cu *.Mask))
-  (pad 1 thru_hole circle (at 3.81 0) (size 1.45 1.45) (drill 1.02) (layers *.Cu *.Mask))
-  (model :datasheets:Molex/KK/022232041.stp
-    (at (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz -90 0 0))
-  )
+(footprint "CONN_MOLEX_KK_22-23-2041"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 6.25 0)
+		(layer "F.SilkS")
+		(uuid "f4112870-e741-4551-8792-953e3f2be606")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "CONN_MOLEX_KK_22-23-2041"
+		(at 0 5.25 0)
+		(layer "F.Fab")
+		(uuid "9fd869ee-ca05-48ec-8f5e-3caeee4adfb8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "62ee7fb5-083e-4304-af72-85183c46d2f7")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5356a641-9d1d-4ff2-978c-16920d275b6a")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6e4e82f2-77bb-486f-94e5-f7b495f48566")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -5.5 -3.5)
+		(end -5.5 3.5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4efc2aa2-5233-496d-8ead-51f9da09db17")
+	)
+	(fp_line
+		(start -5.5 3.5)
+		(end 5.5 3.5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "490dd3fa-a647-4eab-9b6c-92eafe541178")
+	)
+	(fp_line
+		(start -4 -3.5)
+		(end -4 -2.5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ab37ee79-25a8-4cc6-bcd5-8795b1ff43c9")
+	)
+	(fp_line
+		(start -4 -2.5)
+		(end 4 -2.5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c86c33cd-e0ab-4c39-8fb3-4cf17931267b")
+	)
+	(fp_line
+		(start 4 -2.5)
+		(end 4 -3.5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f98952e4-a911-4b80-8c54-c3b9474319fd")
+	)
+	(fp_line
+		(start 5.5 -3.5)
+		(end -5.5 -3.5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d35d64d2-b00f-4123-afcd-00d98393d5e6")
+	)
+	(fp_line
+		(start 5.5 3.5)
+		(end 5.5 -3.5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7ad4bdbd-877c-4801-9989-5d3fbab8b416")
+	)
+	(pad "1" thru_hole circle
+		(at 3.81 0)
+		(size 1.45 1.45)
+		(drill 1.02)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a5402bd2-f7b0-411f-a6d3-9201025bf85d")
+	)
+	(pad "2" thru_hole circle
+		(at 1.27 0)
+		(size 1.45 1.45)
+		(drill 1.02)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "2c232d5a-06fd-451d-b4f0-7824e5e3f632")
+	)
+	(pad "3" thru_hole circle
+		(at -1.27 0)
+		(size 1.45 1.45)
+		(drill 1.02)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "6cbc63de-80d8-4897-a224-ec9459ed4128")
+	)
+	(pad "4" thru_hole circle
+		(at -3.81 0)
+		(size 1.45 1.45)
+		(drill 1.02)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "dad06947-049a-4b89-a17b-61a518775382")
+	)
+	(model ":DATASHEETS:Molex/KK/022232041.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
 )

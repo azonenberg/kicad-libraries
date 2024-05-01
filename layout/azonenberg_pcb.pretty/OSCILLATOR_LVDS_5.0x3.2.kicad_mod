@@ -1,29 +1,145 @@
-(footprint "OSCILLATOR_LVDS_5.0x3.2" (version 20211014) (generator pcbnew)
-  (layer "F.Cu")
-  (tedit 63D7B0D5)
-  (solder_mask_margin 0.05)
-  (solder_paste_ratio -0.1)
-  (attr through_hole)
-  (fp_text reference "OSCILLATOR_LVDS_3.2x2.5" (at 0.5 3.75) (layer "F.SilkS")
-    (effects (font (size 0.508 0.457) (thickness 0.11425)))
-    (tstamp 6dfd51be-7da2-4629-a2c3-434373218939)
-  )
-  (fp_text value "VAL**" (at 0 3) (layer "F.SilkS") hide
-    (effects (font (size 0.508 0.457) (thickness 0.11425)))
-    (tstamp 8e133bfa-77b7-445e-a7c9-24de287fbe7a)
-  )
-  (fp_line (start -1.6 2) (end -2 1.6) (layer "F.SilkS") (width 0.15) (tstamp 1d0f56bd-e7b0-4278-9857-0fc9fddb8518))
-  (fp_line (start -2 1.6) (end -2 2) (layer "F.SilkS") (width 0.15) (tstamp 3e8a112a-f76a-43fb-b09c-e1bf6b82d688))
-  (fp_line (start -2 2) (end -1.6 2) (layer "F.SilkS") (width 0.15) (tstamp ab159020-7cbd-44a6-abdb-cb93ca48035e))
-  (pad "1" smd rect (at -1.27 1.1) (size 0.84 1.2) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 8f1ee2d4-06c3-43b8-a349-4c49926a4bcd))
-  (pad "2" smd rect (at 0 1.1) (size 0.84 1.2) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp ec3f5f6e-4472-4c1c-8724-d696501643cb))
-  (pad "3" smd rect (at 1.27 1.1) (size 0.84 1.2) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 741f897a-8053-4c33-8ff6-65c5932dcddd))
-  (pad "4" smd rect (at 1.27 -1.1) (size 0.84 1.2) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 840e5883-d964-4d36-b8bc-81d850850ba1))
-  (pad "5" smd rect (at 0 -1.1) (size 0.84 1.2) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 7150c500-78d7-4ba4-a1db-1c31f55ffa7c))
-  (pad "6" smd rect (at -1.27 -1.1) (size 0.84 1.2) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 52d94e3a-11dc-4e30-bef5-43aa5d5d55f4))
-  (model "/ceph/bulk/datasheets/Abracon/AK5DAF1-100.0000T2--3DModel-STEP-368357.step"
-    (offset (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
+(footprint "OSCILLATOR_LVDS_5.0x3.2"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "OSCILLATOR_LVDS_3.2x2.5"
+		(at 0.5 3.75 0)
+		(layer "F.SilkS")
+		(uuid "6dfd51be-7da2-4629-a2c3-434373218939")
+		(effects
+			(font
+				(size 0.508 0.457)
+				(thickness 0.11425)
+			)
+		)
+	)
+	(property "Value" "VAL**"
+		(at 0 3 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "8e133bfa-77b7-445e-a7c9-24de287fbe7a")
+		(effects
+			(font
+				(size 0.508 0.457)
+				(thickness 0.11425)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b67da1f3-76c9-4d37-9a15-87d97d3db533")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6f745bbd-a1cf-4609-a3ac-7e6127750511")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ad4e0f7a-4098-4e64-af57-b8cd9302e750")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(solder_mask_margin 0.05)
+	(solder_paste_ratio -0.1)
+	(attr through_hole)
+	(fp_line
+		(start -2 1.6)
+		(end -2 2)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3e8a112a-f76a-43fb-b09c-e1bf6b82d688")
+	)
+	(fp_line
+		(start -2 2)
+		(end -1.6 2)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ab159020-7cbd-44a6-abdb-cb93ca48035e")
+	)
+	(fp_line
+		(start -1.6 2)
+		(end -2 1.6)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1d0f56bd-e7b0-4278-9857-0fc9fddb8518")
+	)
+	(pad "1" smd rect
+		(at -1.27 1.1)
+		(size 0.84 1.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "8f1ee2d4-06c3-43b8-a349-4c49926a4bcd")
+	)
+	(pad "2" smd rect
+		(at 0 1.1)
+		(size 0.84 1.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "ec3f5f6e-4472-4c1c-8724-d696501643cb")
+	)
+	(pad "3" smd rect
+		(at 1.27 1.1)
+		(size 0.84 1.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "741f897a-8053-4c33-8ff6-65c5932dcddd")
+	)
+	(pad "4" smd rect
+		(at 1.27 -1.1)
+		(size 0.84 1.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "840e5883-d964-4d36-b8bc-81d850850ba1")
+	)
+	(pad "5" smd rect
+		(at 0 -1.1)
+		(size 0.84 1.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "7150c500-78d7-4ba4-a1db-1c31f55ffa7c")
+	)
+	(pad "6" smd rect
+		(at -1.27 -1.1)
+		(size 0.84 1.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "52d94e3a-11dc-4e30-bef5-43aa5d5d55f4")
+	)
+	(model "/ceph/bulk/datasheets/Abracon/AK5DAF1-100.0000T2--3DModel-STEP-368357.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

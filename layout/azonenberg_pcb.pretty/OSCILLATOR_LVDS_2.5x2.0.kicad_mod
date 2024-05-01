@@ -1,24 +1,145 @@
-(module OSCILLATOR_LVDS_2.5x2.0 (layer F.Cu) (tedit 5E86F240)
-  (solder_mask_margin 0.05)
-  (solder_paste_ratio -0.1)
-  (fp_text reference OSCILLATOR_LVDS_2.5x2.0 (at 0.5 3.75) (layer F.SilkS)
-    (effects (font (size 0.508 0.457) (thickness 0.11425)))
-  )
-  (fp_text value VAL** (at 0 3) (layer F.SilkS) hide
-    (effects (font (size 0.508 0.457) (thickness 0.11425)))
-  )
-  (fp_line (start -1.45 1) (end -1.2 1.25) (layer F.SilkS) (width 0.15))
-  (fp_line (start -1.45 1.25) (end -1.45 1) (layer F.SilkS) (width 0.15))
-  (fp_line (start -1.2 1.25) (end -1.45 1.25) (layer F.SilkS) (width 0.15))
-  (pad 1 smd rect (at -0.9625 0.6125) (size 0.48 0.775) (layers F.Cu F.Paste F.Mask))
-  (pad 2 smd rect (at 0 0.6125) (size 0.48 0.775) (layers F.Cu F.Paste F.Mask))
-  (pad 3 smd rect (at 0.9625 0.6125) (size 0.48 0.775) (layers F.Cu F.Paste F.Mask))
-  (pad 4 smd rect (at 0.9625 -0.6125) (size 0.48 0.775) (layers F.Cu F.Paste F.Mask))
-  (pad 5 smd rect (at 0 -0.6125) (size 0.48 0.775) (layers F.Cu F.Paste F.Mask))
-  (pad 6 smd rect (at -0.9625 -0.6125) (size 0.48 0.775) (layers F.Cu F.Paste F.Mask))
-  (model /nfs4/home/azonenberg/kicad-libs/3rdparty/walter/smd_qfn/dfn-6_clock.wrl
-    (at (xyz 0 0 0))
-    (scale (xyz 0.175 0.175 0.175))
-    (rotate (xyz 0 0 0))
-  )
+(footprint "OSCILLATOR_LVDS_2.5x2.0"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "OSCILLATOR_LVDS_2.5x2.0"
+		(at 0.5 3.75 0)
+		(layer "F.SilkS")
+		(uuid "7ac1e3c7-9529-4b35-ae43-451fc1d864bc")
+		(effects
+			(font
+				(size 0.508 0.457)
+				(thickness 0.11425)
+			)
+		)
+	)
+	(property "Value" "VAL**"
+		(at 0 3 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "b0e66f16-225a-49ed-b9fc-f0b7d06c8986")
+		(effects
+			(font
+				(size 0.508 0.457)
+				(thickness 0.11425)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "98b9be45-e27f-4b73-b22a-d39f3de8581a")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "647e7fff-ff2c-45b2-9c1b-6c3e705beabc")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ec4e1b04-8a23-45eb-87c5-51829c6a2fee")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(solder_mask_margin 0.05)
+	(solder_paste_ratio -0.1)
+	(attr through_hole)
+	(fp_line
+		(start -1.45 1)
+		(end -1.2 1.25)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3ab89825-8a69-4b66-9b58-c850db484e07")
+	)
+	(fp_line
+		(start -1.45 1.25)
+		(end -1.45 1)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "73f41870-d98b-4b8c-8f60-fbca0e341088")
+	)
+	(fp_line
+		(start -1.2 1.25)
+		(end -1.45 1.25)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "622e91c4-04c0-4e0b-93d2-5da04b0569b4")
+	)
+	(pad "1" smd rect
+		(at -0.9625 0.6125)
+		(size 0.48 0.775)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "173ae75a-cbf9-45a0-884c-9eb4b1500f02")
+	)
+	(pad "2" smd rect
+		(at 0 0.6125)
+		(size 0.48 0.775)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "feb507e6-e26a-4795-80b2-8beabd08e3f0")
+	)
+	(pad "3" smd rect
+		(at 0.9625 0.6125)
+		(size 0.48 0.775)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "86bfc629-8844-4462-8efc-04bc726acb6d")
+	)
+	(pad "4" smd rect
+		(at 0.9625 -0.6125)
+		(size 0.48 0.775)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "1a804964-0aa6-4dad-8d56-884b357974f3")
+	)
+	(pad "5" smd rect
+		(at 0 -0.6125)
+		(size 0.48 0.775)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "fc83d7c6-99fc-4186-9aae-0f89c1253876")
+	)
+	(pad "6" smd rect
+		(at -0.9625 -0.6125)
+		(size 0.48 0.775)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "ade06349-b3ed-4745-8fb9-63701dbec104")
+	)
+	(model ":WALTER:smd_qfn/dfn-6_clock.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 0.175 0.175 0.175)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

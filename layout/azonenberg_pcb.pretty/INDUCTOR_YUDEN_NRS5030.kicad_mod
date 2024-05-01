@@ -1,24 +1,128 @@
-(footprint "INDUCTOR_YUDEN_NRS5030" (version 20211014) (generator pcbnew)
-  (layer "F.Cu")
-  (tedit 63F9A5A2)
-  (attr through_hole)
-  (fp_text reference "REF**" (at 0 4.4) (layer "F.SilkS")
-    (effects (font (size 1.5 1.5) (thickness 0.15)))
-    (tstamp 5bd822d8-4bea-422e-88a2-e0d12920957c)
-  )
-  (fp_text value "INDUCTOR_YUDEN_NRS5030" (at 0 6.45) (layer "F.Fab")
-    (effects (font (size 1.5 1.5) (thickness 0.15)))
-    (tstamp 01af2f02-b227-4bb4-82ad-c8e8a24c5290)
-  )
-  (fp_line (start 3 3) (end -3 3) (layer "F.SilkS") (width 0.15) (tstamp 05f9eb38-141f-405b-8ec5-77110a216927))
-  (fp_line (start -3 -3) (end 3 -3) (layer "F.SilkS") (width 0.15) (tstamp 4440fba1-c44e-4ecb-9d26-72a182fa056a))
-  (fp_line (start -3 3) (end -3 -3) (layer "F.SilkS") (width 0.15) (tstamp 7d438b09-1b1a-438f-b568-e7a2ee151e84))
-  (fp_line (start 3 -3) (end 3 3) (layer "F.SilkS") (width 0.15) (tstamp 8baf20b6-0043-42d9-8963-508a69d1e3dd))
-  (pad "1" smd rect (at -1.8 0) (size 1.5 4) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 2f6e61ad-286d-484d-b6d1-d2fa4c9eb168))
-  (pad "2" smd rect (at 1.8 0) (size 1.5 4) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp ff37750f-37d4-4338-8fc4-5c833b417241))
-  (model ":share:Taiyo Yuden/User Library-SMDpowerInductor.step"
-    (offset (xyz 2.5 2.5 3))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 90 0 90))
-  )
+(footprint "INDUCTOR_YUDEN_NRS5030"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 4.4 0)
+		(layer "F.SilkS")
+		(uuid "5bd822d8-4bea-422e-88a2-e0d12920957c")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "INDUCTOR_YUDEN_NRS5030"
+		(at 0 6.45 0)
+		(layer "F.Fab")
+		(uuid "01af2f02-b227-4bb4-82ad-c8e8a24c5290")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fd82139e-f2cb-47e3-8454-c5aecb44c83c")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3ffb3455-beca-412d-9e64-03cf781763b5")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9fad4fe6-81db-469b-9c60-27a8d88dc690")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -3 -3)
+		(end 3 -3)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4440fba1-c44e-4ecb-9d26-72a182fa056a")
+	)
+	(fp_line
+		(start -3 3)
+		(end -3 -3)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7d438b09-1b1a-438f-b568-e7a2ee151e84")
+	)
+	(fp_line
+		(start 3 -3)
+		(end 3 3)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8baf20b6-0043-42d9-8963-508a69d1e3dd")
+	)
+	(fp_line
+		(start 3 3)
+		(end -3 3)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "05f9eb38-141f-405b-8ec5-77110a216927")
+	)
+	(pad "1" smd rect
+		(at -1.8 0)
+		(size 1.5 4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "2f6e61ad-286d-484d-b6d1-d2fa4c9eb168")
+	)
+	(pad "2" smd rect
+		(at 1.8 0)
+		(size 1.5 4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "ff37750f-37d4-4338-8fc4-5c833b417241")
+	)
+	(model ":SHARE:Taiyo Yuden/User Library-SMDpowerInductor.step"
+		(offset
+			(xyz 2.5 2.5 3)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 0 90)
+		)
+	)
 )

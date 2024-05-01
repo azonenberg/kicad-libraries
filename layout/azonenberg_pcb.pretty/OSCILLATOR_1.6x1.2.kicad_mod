@@ -1,24 +1,120 @@
-(footprint "OSCILLATOR_1.6x1.2" (version 20211014) (generator pcbnew)
-  (layer "F.Cu")
-  (tedit 623582E0)
-  (attr smd)
-  (fp_text reference "REF**" (at 0 3) (layer "F.SilkS")
-    (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp f1a5aae5-cf5b-4b33-ac56-68ab8061ac5b)
-  )
-  (fp_text value "OSCILLATOR_1.6x1.2" (at 0 4.5) (layer "F.Fab")
-    (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp f607215c-a54d-4cea-99aa-87631426ae49)
-  )
-  (fp_line (start -1 0.8) (end -0.7 0.8) (layer "F.SilkS") (width 0.15) (tstamp 044e3a89-2b26-4ef0-ac70-26740ece1218))
-  (fp_line (start -1 0.5) (end -1 0.8) (layer "F.SilkS") (width 0.15) (tstamp 29812e83-b5d8-4e7f-8d5b-6bbeba942de1))
-  (pad "1" smd rect (at -0.56 0.375) (size 0.43 0.5) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp c83d24b4-0ced-4213-890a-58957c5fc26a))
-  (pad "2" smd rect (at 0.6 0.375) (size 0.35 0.5) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 6256f993-1b70-4baa-9e55-695d34988a3f))
-  (pad "3" smd rect (at 0.6 -0.375) (size 0.35 0.5) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 1c0ede8c-1c36-4683-8989-77b5f7985c6c))
-  (pad "4" smd rect (at -0.6 -0.375) (size 0.35 0.5) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 66eecc77-7cd7-4fca-a71f-e06d6d5e6a7d))
-  (model ":walter:crystal/crystal_fa-128.wrl"
-    (offset (xyz 0 0 0))
-    (scale (xyz 0.7 0.7 0.7))
-    (rotate (xyz 0 0 0))
-  )
+(footprint "OSCILLATOR_1.6x1.2"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 3 0)
+		(layer "F.SilkS")
+		(uuid "f1a5aae5-cf5b-4b33-ac56-68ab8061ac5b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "OSCILLATOR_1.6x1.2"
+		(at 0 4.5 0)
+		(layer "F.Fab")
+		(uuid "f607215c-a54d-4cea-99aa-87631426ae49")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7b5c6027-45fa-4934-83fd-5ecfbfab453d")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5e8af193-76c9-48ca-adb4-89dca1dafafb")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dce64bbc-b838-496b-a17d-bbb818900bb1")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1 0.5)
+		(end -1 0.8)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "29812e83-b5d8-4e7f-8d5b-6bbeba942de1")
+	)
+	(fp_line
+		(start -1 0.8)
+		(end -0.7 0.8)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "044e3a89-2b26-4ef0-ac70-26740ece1218")
+	)
+	(pad "1" smd rect
+		(at -0.56 0.375)
+		(size 0.43 0.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "c83d24b4-0ced-4213-890a-58957c5fc26a")
+	)
+	(pad "2" smd rect
+		(at 0.6 0.375)
+		(size 0.35 0.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "6256f993-1b70-4baa-9e55-695d34988a3f")
+	)
+	(pad "3" smd rect
+		(at 0.6 -0.375)
+		(size 0.35 0.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "1c0ede8c-1c36-4683-8989-77b5f7985c6c")
+	)
+	(pad "4" smd rect
+		(at -0.6 -0.375)
+		(size 0.35 0.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "66eecc77-7cd7-4fca-a71f-e06d6d5e6a7d")
+	)
+	(model ":WALTER:crystal/crystal_fa-128.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 0.7 0.7 0.7)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

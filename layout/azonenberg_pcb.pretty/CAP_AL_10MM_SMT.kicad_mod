@@ -1,26 +1,171 @@
-(module CAP_AL_10MM_SMT (layer F.Cu) (tedit 6195B6D3)
-  (attr smd)
-  (fp_text reference CAP_AL_10MM_SMT (at 0 7) (layer F.SilkS)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_text value VAL** (at 0 9) (layer F.SilkS) hide
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_line (start -5.5 5.5) (end -5.5 -3.5) (layer F.SilkS) (width 0.2))
-  (fp_line (start -5.5 -3.5) (end -3.5 -5.5) (layer F.SilkS) (width 0.2))
-  (fp_line (start -3.5 -5.5) (end -1.5 -5.5) (layer F.SilkS) (width 0.2))
-  (fp_line (start -5.5 5.5) (end -1.5 5.5) (layer F.SilkS) (width 0.2))
-  (fp_line (start 1.5 5.5) (end 5.5 5.5) (layer F.SilkS) (width 0.2))
-  (fp_line (start 5.5 5.5) (end 5.5 -3.5) (layer F.SilkS) (width 0.2))
-  (fp_line (start 5.5 -3.5) (end 3.5 -5.5) (layer F.SilkS) (width 0.2))
-  (fp_line (start 3.5 -5.5) (end 1.5 -5.5) (layer F.SilkS) (width 0.2))
-  (pad 1 smd rect (at 0 -4) (size 1.6 3.5) (layers F.Cu F.Paste F.Mask)
-    (solder_paste_margin 0.01))
-  (pad 2 smd rect (at 0 4) (size 1.6 3.5) (layers F.Cu F.Paste F.Mask)
-    (solder_paste_margin 0.01))
-  (model :walter:smd_cap/c_elec_10x10.wrl
-    (at (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 -90))
-  )
+(footprint "CAP_AL_10MM_SMT"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "CAP_AL_10MM_SMT"
+		(at 0 7 0)
+		(layer "F.SilkS")
+		(uuid "aa7a3f07-5c98-444e-af9f-3bff95a7bc87")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "VAL**"
+		(at 0 9 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "59468df4-cac3-487b-b7c5-705dc007e834")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9ee30b5a-f42a-4615-a1ef-2bec8adf57ee")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "121aff2a-b028-4573-a169-e508bc28e9dc")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "19cbea6c-9bea-40ba-a014-927e00186972")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -5.5 -3.5)
+		(end -3.5 -5.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b6d5c858-1c5c-47e0-b945-ed04ab368c91")
+	)
+	(fp_line
+		(start -5.5 5.5)
+		(end -5.5 -3.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2af245fe-9f01-405f-8788-7093831e704a")
+	)
+	(fp_line
+		(start -5.5 5.5)
+		(end -1.5 5.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "70e9ef79-69cf-4bb5-8976-db242a401921")
+	)
+	(fp_line
+		(start -3.5 -5.5)
+		(end -1.5 -5.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0bc29a4f-eedd-4eab-96eb-66f028c73ec9")
+	)
+	(fp_line
+		(start 1.5 5.5)
+		(end 5.5 5.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c30ae2fe-7e24-426e-b24a-2a32788fc5ac")
+	)
+	(fp_line
+		(start 3.5 -5.5)
+		(end 1.5 -5.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a2c49691-396d-454f-ac9f-e96a0b7141a7")
+	)
+	(fp_line
+		(start 5.5 -3.5)
+		(end 3.5 -5.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "58c35444-3a09-4834-a8f9-740ccc9c64f4")
+	)
+	(fp_line
+		(start 5.5 5.5)
+		(end 5.5 -3.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5635c8a4-0557-4e4c-89a7-42d7dc431e88")
+	)
+	(pad "1" smd rect
+		(at 0 -4)
+		(size 1.6 3.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_paste_margin 0.01)
+		(uuid "76a8434d-2c74-4878-8724-1dffa97e9507")
+	)
+	(pad "2" smd rect
+		(at 0 4)
+		(size 1.6 3.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_paste_margin 0.01)
+		(uuid "aeba828e-bb5a-4bd9-92aa-54e0baef8589")
+	)
+	(model ":WALTER:smd_cap/c_elec_10x10.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 -90)
+		)
+	)
 )

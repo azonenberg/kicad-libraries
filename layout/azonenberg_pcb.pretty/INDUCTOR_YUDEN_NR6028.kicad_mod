@@ -1,25 +1,89 @@
-(footprint "INDUCTOR_YUDEN_NR6028" (version 20211014) (generator pcbnew)
-  (layer "F.Cu")
-  (tedit 63F9A485)
-  (attr through_hole)
-  (fp_text reference "INDUCTOR_YUDEN_NR6028" (at 0 4) (layer "F.SilkS")
-    (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp 35cdf527-e0f2-4974-9159-8efb83f978fe)
-  )
-  (fp_text value "VAL**" (at 0 6.5) (layer "F.SilkS") hide
-    (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp f7b24504-ceca-428e-a90c-6ee05a5b473c)
-  )
-  (pad "1" smd rect (at -2.35 0) (size 1.6 5.7) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 9ee86426-dd36-43bd-a918-a578932df2e5))
-  (pad "2" smd rect (at 2.35 0) (size 1.6 5.7) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp dab4e0eb-5dd9-4c58-b891-fb7db8995b9b))
-  (model "/nfs4/home/azonenberg/kicad-libs/3rdparty/walter/smd_inductors/inductor_smd_8x5mm.wrl"
-    (offset (xyz 0 0 0))
-    (scale (xyz 0.75 0.75 0.5))
-    (rotate (xyz 0 0 0))
-  )
-  (model ":share:Taiyo Yuden/NR6028T4R7M--3DModel-STEP-56544.STEP"
-    (offset (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz -90 0 0))
-  )
+(footprint "INDUCTOR_YUDEN_NR6028"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "INDUCTOR_YUDEN_NR6028"
+		(at 0 4 0)
+		(layer "F.SilkS")
+		(uuid "35cdf527-e0f2-4974-9159-8efb83f978fe")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "VAL**"
+		(at 0 6.5 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "f7b24504-ceca-428e-a90c-6ee05a5b473c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fc7cf882-6f00-42ec-bdf6-16645e8e7f14")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1499fa64-ae6c-44b4-8443-79c0ec1a37d5")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c5fd215e-272f-4579-aff2-2d0551fc3d46")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(pad "1" smd rect
+		(at -2.35 0)
+		(size 1.6 5.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "9ee86426-dd36-43bd-a918-a578932df2e5")
+	)
+	(pad "2" smd rect
+		(at 2.35 0)
+		(size 1.6 5.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "dab4e0eb-5dd9-4c58-b891-fb7db8995b9b")
+	)
+	(model ":SHARE:Taiyo Yuden/NR6028T4R7M--3DModel-STEP-56544.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
 )
