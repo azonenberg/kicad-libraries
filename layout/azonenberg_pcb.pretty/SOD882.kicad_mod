@@ -1,11 +1,98 @@
-(module SOD882 (layer F.Cu) (tedit 5BE684D4)
-  (fp_text reference REF** (at 0 3.25) (layer F.SilkS)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_text value SOD882 (at 0 2.25) (layer F.Fab)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_line (start -0.75 -0.25) (end -0.75 0.25) (layer F.SilkS) (width 0.15))
-  (pad 1 smd rect (at -0.325 0) (size 0.35 0.6) (layers F.Cu F.Paste F.Mask))
-  (pad 2 smd rect (at 0.325 0) (size 0.35 0.6) (layers F.Cu F.Paste F.Mask))
+(footprint "SOD882"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 3.25 0)
+		(layer "F.SilkS")
+		(uuid "4201bc2e-706b-4702-a075-3a0031c162a5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SOD882"
+		(at 0 2.25 0)
+		(layer "F.Fab")
+		(uuid "7104d762-1b87-4fc7-b847-3bb125b4451f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7d52b8ec-02bf-4457-92b2-4770e8c4a7c5")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7e000ce2-ef7f-4c53-9184-d8f227a3db44")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "344b9741-7a4f-4f30-9678-4ce9b0780c21")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.75 -0.25)
+		(end -0.75 0.25)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bf8b22ef-3e88-44f2-890d-1282dc4893fa")
+	)
+	(pad "1" smd rect
+		(at -0.325 0)
+		(size 0.35 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "86bb563a-0c95-4ae9-8d4e-17e25c698fb7")
+	)
+	(pad "2" smd rect
+		(at 0.325 0)
+		(size 0.35 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "ee4bba7b-4191-4a74-a148-bfd84e79c051")
+	)
+	(model "${WALTER}/smd_diode/sod523.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 180)
+		)
+	)
 )

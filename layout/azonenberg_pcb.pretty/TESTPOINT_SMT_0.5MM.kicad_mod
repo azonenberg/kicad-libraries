@@ -1,9 +1,72 @@
-(module TESTPOINT_SMT_0.5MM (layer F.Cu) (tedit 53C661B2)
-  (fp_text reference TESTPOINT_SMT_0.5MM (at 0 1.5) (layer F.SilkS)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_text value VAL** (at 0.1 2.9) (layer F.SilkS) hide
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (pad 1 smd circle (at 0 0) (size 0.5 0.5) (layers F.Cu F.Mask))
+(footprint "TESTPOINT_SMT_0.5MM"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "TESTPOINT_SMT_0.5MM"
+		(at 0 1.5 0)
+		(layer "F.SilkS")
+		(uuid "22511d56-b194-4825-a9fb-fd172989656f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "VAL**"
+		(at 0.1 2.9 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "45a0ef43-92b1-4e26-b5f1-b24601fbb975")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a27e27de-ce28-481c-934a-cc3bcd872ca9")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1fdc9568-0a6a-4cd6-918a-12b368747f6b")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e1c3714e-3f23-4051-ac50-8c29725503dc")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd exclude_from_pos_files exclude_from_bom)
+	(pad "1" smd circle
+		(at 0 0)
+		(size 0.5 0.5)
+		(layers "F.Cu" "F.Mask")
+		(uuid "eb8d9d47-2217-483f-891b-268c002933dd")
+	)
 )
