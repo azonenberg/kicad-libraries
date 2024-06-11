@@ -1,26 +1,171 @@
-(module CAP_AL_6.3MM_SMT (layer F.Cu) (tedit 60DC9842)
-  (attr smd)
-  (fp_text reference CAP_AL_6.3MM_SMT (at 0 6) (layer F.SilkS)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_text value VAL** (at 0 8) (layer F.SilkS) hide
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_line (start 2 -4) (end 1 -4) (layer F.SilkS) (width 0.2))
-  (fp_line (start 4 -2) (end 2 -4) (layer F.SilkS) (width 0.2))
-  (fp_line (start 4 4) (end 4 -2) (layer F.SilkS) (width 0.2))
-  (fp_line (start 1 4) (end 4 4) (layer F.SilkS) (width 0.2))
-  (fp_line (start -4 4) (end -1 4) (layer F.SilkS) (width 0.2))
-  (fp_line (start -2 -4) (end -1 -4) (layer F.SilkS) (width 0.2))
-  (fp_line (start -4 -2) (end -2 -4) (layer F.SilkS) (width 0.2))
-  (fp_line (start -4 4) (end -4 -2) (layer F.SilkS) (width 0.2))
-  (pad 1 smd rect (at 0 -2.5) (size 1.6 3.2) (layers F.Cu F.Paste F.Mask)
-    (solder_paste_margin 0.01))
-  (pad 2 smd rect (at 0 2.5) (size 1.6 3.2) (layers F.Cu F.Paste F.Mask)
-    (solder_paste_margin 0.01))
-  (model /nfs4/home/azonenberg/kicad-libs/3rdparty/walter/smd_cap/c_elec_6_3x5_7.wrl
-    (at (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 270))
-  )
+(footprint "CAP_AL_6.3MM_SMT"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "CAP_AL_6.3MM_SMT"
+		(at 0 6 0)
+		(layer "F.SilkS")
+		(uuid "cd4c00d5-d42d-4772-9d81-cd1c0e251ed4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "VAL**"
+		(at 0 8 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "cf2ca2f2-4d03-4b38-b38c-ac73f844a23d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "CAP_AL_6.3MM_SMT"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1fcaf416-1a3a-45ea-80b4-e9890fcfa586")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a0bab09d-0ad2-4d8b-a313-b2307c96fff9")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5cd72efd-bcb7-4b8d-8745-8e9b31f41146")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -4 -2)
+		(end -2 -4)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f69b5f10-bdb1-4903-bba0-4dad0994ab31")
+	)
+	(fp_line
+		(start -4 4)
+		(end -4 -2)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "04f17c6b-385b-45fb-b3f7-d0acdc60c2da")
+	)
+	(fp_line
+		(start -4 4)
+		(end -1 4)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a184940b-5858-40f8-90a9-ca7b321b9701")
+	)
+	(fp_line
+		(start -2 -4)
+		(end -1 -4)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f8f52551-7b21-4f7b-b39d-dd3acd5560bc")
+	)
+	(fp_line
+		(start 1 4)
+		(end 4 4)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b6cd9c06-0ea9-482b-b4fc-f14af7ea4036")
+	)
+	(fp_line
+		(start 2 -4)
+		(end 1 -4)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cf58a192-4873-4f69-b1c3-df27a20baca0")
+	)
+	(fp_line
+		(start 4 -2)
+		(end 2 -4)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d82e414a-6574-4822-a6c3-22176a7df015")
+	)
+	(fp_line
+		(start 4 4)
+		(end 4 -2)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ba548488-ef44-4350-b105-152ffdfb053f")
+	)
+	(pad "1" smd rect
+		(at 0 -2.5)
+		(size 1.6 3.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_paste_margin 0.01)
+		(uuid "45283bcb-aac6-40c1-81ec-e47aa7731160")
+	)
+	(pad "2" smd rect
+		(at 0 2.5)
+		(size 1.6 3.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_paste_margin 0.01)
+		(uuid "c350b6dd-518d-47de-967a-80cc04f7a8ae")
+	)
+	(model ":WALTER:smd_cap/c_elec_6_3x5_7.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 270)
+		)
+	)
 )

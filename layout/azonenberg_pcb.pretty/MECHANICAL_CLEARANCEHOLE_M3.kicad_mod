@@ -1,0 +1,85 @@
+(footprint "MECHANICAL_CLEARANCEHOLE_M3"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 6.75 0)
+		(layer "F.SilkS")
+		(uuid "f70dcc6a-7611-45b6-bf65-fe26f6c41696")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "MECHANICAL_CLEARANCEHOLE_M3"
+		(at 0 5.25 0)
+		(layer "F.Fab")
+		(uuid "f3d1fbaa-cd25-48e5-a788-011f844ef4b3")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "MECHANICAL_CLEARANCEHOLE_M3"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1c344feb-e8e5-4b47-b305-6f14bee7ba12")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c46bc40a-7a24-407d-af7f-0b8e08864b3e")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "db715e13-383b-47ed-8f1f-a257aaac6b11")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr board_only exclude_from_pos_files exclude_from_bom)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 6 6)
+		(drill 3.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.5)
+		(uuid "8c46be5c-a5b0-4d3a-99d8-22aef56a9e75")
+	)
+	(model "/ceph/fast/home/azonenberg/code/3rdparty/kicad-libs/imported-models/4-40-screw.step"
+		(offset
+			(xyz 0 0 -6.499999902)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

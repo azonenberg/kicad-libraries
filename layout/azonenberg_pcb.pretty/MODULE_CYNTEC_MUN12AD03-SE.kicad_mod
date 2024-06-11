@@ -1,0 +1,174 @@
+(footprint "MODULE_CYNTEC_MUN12AD03-SE"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 9.25 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "44fffeb1-5b11-48e8-9f40-114c40b9bb6b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "MODULE_CYNTEC_MUN12AD03-SE"
+		(at 0 10.75 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "2c617022-43a5-4399-a0be-b582065569b8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "MODULE_CYNTEC_MUN12AD03-SE"
+		(at 0 9.75 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c5fa342e-8cb1-4da8-bd01-3b2262b0ca01")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 9.75 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e42bf23b-bf22-45fa-9004-6974082cdb40")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 9.75 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1b0df8af-1f98-4cbc-82fc-b2f3b4adc0e5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.5 -1.5)
+		(end -1.5 -1.25)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "25230ff5-5c9f-4710-9da9-fac26862f832")
+	)
+	(fp_line
+		(start -1.5 -1.25)
+		(end -1.25 -1.5)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "4bbd64c3-ed02-4de1-9260-03b592a30fca")
+	)
+	(fp_line
+		(start -1.25 -1.5)
+		(end -1.5 -1.5)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "64d1b0ec-2bd0-49c6-bb19-af39a655352d")
+	)
+	(pad "1" smd rect
+		(at -1.05 -0.975)
+		(size 0.5 0.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "92cc7d99-8907-4d27-a99b-042de114061e")
+	)
+	(pad "2" smd rect
+		(at -1.05 -0.325)
+		(size 0.5 0.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "dce9ca80-ed62-40de-9c9a-8dd6e225c7f2")
+	)
+	(pad "3" smd rect
+		(at -1.05 0.325)
+		(size 0.5 0.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "319a1074-1dfc-43e8-ae80-1554b1a1ecbf")
+	)
+	(pad "4" smd rect
+		(at -1.05 0.975)
+		(size 0.5 0.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "6daec7e6-4136-4858-a984-00e0bcfc79e9")
+	)
+	(pad "5" smd rect
+		(at 1.05 0.975)
+		(size 0.5 0.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "7cc0ac44-da51-40e4-b85c-2cbad70cfce1")
+	)
+	(pad "6" smd rect
+		(at 1.05 0.325)
+		(size 0.5 0.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "a1c9c4f2-a890-4df2-8b8f-abad730928d9")
+	)
+	(pad "7" smd rect
+		(at 1.05 -0.325)
+		(size 0.5 0.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "67cbe894-b783-4c64-953b-a44a2986c608")
+	)
+	(pad "8" smd rect
+		(at 1.05 -0.975)
+		(size 0.5 0.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "80295e16-b472-4665-add0-ba6d55b6b3ab")
+	)
+	(pad "PAD" smd rect
+		(at 0 0)
+		(size 1.1 1.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "b22b2912-801e-4b34-8da2-2a8b34de0760")
+	)
+	(model "${DATASHEETS}/Cyntec/User Library-MUN12AD03.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
