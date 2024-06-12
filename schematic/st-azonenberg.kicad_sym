@@ -13582,6 +13582,1288 @@
 			)
 		)
 	)
+	(symbol "STM32L431-QFN48"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 1.27 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "STM32L431-QFN48"
+			(at 8.89 -3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_locked" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "STM32L431-QFN48_1_1"
+			(rectangle
+				(start 0 40.64)
+				(end 20.32 0)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin bidirectional line
+				(at -3.81 39.37 0)
+				(length 3.81)
+				(name "PA0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "ADC1_IN5" input line)
+				(alternate "COMP1_INM" input line)
+				(alternate "COMP1_OUT" bidirectional line)
+				(alternate "EVENTOUT" output line)
+				(alternate "OPAMP1_VINP" input line)
+				(alternate "RTC_TAMP2" input line)
+				(alternate "SAI1_EXTCLK" bidirectional line)
+				(alternate "TIM2_CH1" bidirectional line)
+				(alternate "TIM2_ETR" bidirectional line)
+				(alternate "USART2_CTS" bidirectional line)
+				(alternate "WKUP1" input line)
+			)
+			(pin bidirectional line
+				(at -3.81 36.83 0)
+				(length 3.81)
+				(name "PA1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "ADC1_IN6" input line)
+				(alternate "COMP1_INP" input line)
+				(alternate "EVENTOUT" output line)
+				(alternate "I2C1_SMBA" bidirectional line)
+				(alternate "OPAMP1_VINM" input line)
+				(alternate "SPI1_SCK" bidirectional line)
+				(alternate "TIM15_CH1N" bidirectional line)
+				(alternate "TIM2_CH2" bidirectional line)
+				(alternate "USART2_RTS_DE" bidirectional line)
+			)
+			(pin bidirectional line
+				(at -3.81 34.29 0)
+				(length 3.81)
+				(name "PA2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "ADC1_IN7" input line)
+				(alternate "COMP2_INM" input line)
+				(alternate "COMP2_OUT" output line)
+				(alternate "EVENTOUT" output line)
+				(alternate "LPUART1_TX" output line)
+				(alternate "LSCO" bidirectional line)
+				(alternate "QUADSPI_BK1_NCS" bidirectional line)
+				(alternate "TIM15_CH1" bidirectional line)
+				(alternate "TIM2_CH3" bidirectional line)
+				(alternate "USART2_TX" output line)
+				(alternate "WKUP4" bidirectional line)
+			)
+			(pin bidirectional line
+				(at -3.81 31.75 0)
+				(length 3.81)
+				(name "PA3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "ADC1_IN8" input line)
+				(alternate "COMP2_INP" input line)
+				(alternate "EVENTOUT" output line)
+				(alternate "LPUART1_RX" input line)
+				(alternate "OPAMP1_VOUT" output line)
+				(alternate "QUADSPI_CLK" bidirectional line)
+				(alternate "SAI1_MCLK_A" bidirectional line)
+				(alternate "TIM15_CH2" bidirectional line)
+				(alternate "TIM2_CH4" bidirectional line)
+				(alternate "USART2_RX" input line)
+			)
+			(pin bidirectional line
+				(at -3.81 29.21 0)
+				(length 3.81)
+				(name "PA4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "ADC1_IN9" input line)
+				(alternate "COMP1_INM" input line)
+				(alternate "COMP2_INM" input line)
+				(alternate "DAC1_OUT1" output line)
+				(alternate "EVENTOUT" bidirectional line)
+				(alternate "LPTIM2_OUT" bidirectional line)
+				(alternate "SAI1_FS_B" bidirectional line)
+				(alternate "SPI1_NSS" bidirectional line)
+				(alternate "SPI3_NSS" bidirectional line)
+				(alternate "USART2_CK" bidirectional line)
+			)
+			(pin bidirectional line
+				(at -3.81 26.67 0)
+				(length 3.81)
+				(name "PA5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "ADC1_IN10" input line)
+				(alternate "COMP1_INM" input line)
+				(alternate "COMP2_INM" input line)
+				(alternate "DAC1_OUT2" output line)
+				(alternate "EVENTOUT" output line)
+				(alternate "LPTIM2_ETR" bidirectional line)
+				(alternate "SPI1_SCK" bidirectional line)
+				(alternate "TIM2_CH1" bidirectional line)
+				(alternate "TIM2_ETR" bidirectional line)
+			)
+			(pin bidirectional line
+				(at -3.81 24.13 0)
+				(length 3.81)
+				(name "PA6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "16"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "ADC1_IN11" input line)
+				(alternate "COMP1_OUT" bidirectional line)
+				(alternate "EVENTOUT" bidirectional line)
+				(alternate "LPUART1_CTS" bidirectional line)
+				(alternate "QUADSPI_BK1_IO3" bidirectional line)
+				(alternate "SPI1_MISO" bidirectional line)
+				(alternate "TIM16_CH1" bidirectional line)
+				(alternate "TIM1_BKIN" bidirectional line)
+				(alternate "TIM1_BKIN_COMP2" bidirectional line)
+				(alternate "USART3_CTS" bidirectional line)
+			)
+			(pin bidirectional line
+				(at -3.81 21.59 0)
+				(length 3.81)
+				(name "PA7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "17"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "ADC1_IN12" input line)
+				(alternate "COMP2_OUT" output line)
+				(alternate "EVENTOUT" output line)
+				(alternate "I2C3_SCL" bidirectional line)
+				(alternate "QUADSPI_BK1_IO2" bidirectional line)
+				(alternate "SPI1_MOSI" bidirectional line)
+				(alternate "TIM1_CH1N" bidirectional line)
+			)
+			(pin bidirectional line
+				(at -3.81 19.05 0)
+				(length 3.81)
+				(name "PA8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "29"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "EVENTOUT" output line)
+				(alternate "LPTIM2_OUT" output line)
+				(alternate "MCO" output line)
+				(alternate "SAI1_SCK_A" bidirectional line)
+				(alternate "SWPMI1_IO" bidirectional line)
+				(alternate "TIM1_CH1" bidirectional line)
+				(alternate "USART1_CK" bidirectional line)
+			)
+			(pin bidirectional line
+				(at -3.81 16.51 0)
+				(length 3.81)
+				(name "PA9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "30"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "EVENTOUT" output line)
+				(alternate "I2C1_SCL" bidirectional line)
+				(alternate "SAI1_FS_A" bidirectional line)
+				(alternate "TIM15_BKIN" bidirectional line)
+				(alternate "TIM1_CH2" bidirectional line)
+				(alternate "USART1_TX" output line)
+			)
+			(pin bidirectional line
+				(at -3.81 13.97 0)
+				(length 3.81)
+				(name "PA10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "31"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "EVENTOUT" output line)
+				(alternate "I2C1_SDA" bidirectional line)
+				(alternate "SAID1_SD_A" bidirectional line)
+				(alternate "TIM1_CH3" bidirectional line)
+				(alternate "USART1_RX" input line)
+			)
+			(pin bidirectional line
+				(at -3.81 11.43 0)
+				(length 3.81)
+				(name "PA11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "32"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "CAN1_RX" input line)
+				(alternate "COMP1_OUT" output line)
+				(alternate "EVENTOUT" output line)
+				(alternate "SPI1_MISO" bidirectional line)
+				(alternate "TIM1_BKIN2" bidirectional line)
+				(alternate "TIM1_BKIN2_COMP1" bidirectional line)
+				(alternate "TIM1_CH4" bidirectional line)
+				(alternate "USART1_CTS" bidirectional line)
+			)
+			(pin bidirectional line
+				(at -3.81 8.89 0)
+				(length 3.81)
+				(name "PA12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "33"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "CAN1_TX" output line)
+				(alternate "EVENTOUT" bidirectional line)
+				(alternate "SPI1_MOSI" bidirectional line)
+				(alternate "TIM1_ETR" bidirectional line)
+				(alternate "USART1_RTS_DE" bidirectional line)
+			)
+			(pin bidirectional line
+				(at -3.81 6.35 0)
+				(length 3.81)
+				(name "PA13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "34"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "EVENTOUT" output line)
+				(alternate "IR_OUT" output line)
+				(alternate "JTMS" input line)
+				(alternate "SAI1_SD_B" bidirectional line)
+				(alternate "SWDIO" bidirectional line)
+				(alternate "SWPMI_TX" bidirectional line)
+			)
+			(pin bidirectional line
+				(at -3.81 3.81 0)
+				(length 3.81)
+				(name "PA14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "37"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "EVENTOUT" output line)
+				(alternate "I2C1_SMBA" bidirectional line)
+				(alternate "JTCK" input line)
+				(alternate "LPTIM1_OUT" output line)
+				(alternate "SAI1_FS_B" bidirectional line)
+				(alternate "SWCLK" input line)
+				(alternate "SWPMI1_RX" input line)
+			)
+			(pin bidirectional line
+				(at -3.81 1.27 0)
+				(length 3.81)
+				(name "PA15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "38"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "EVENTOUT" output line)
+				(alternate "JTDI" input line)
+				(alternate "SPI1_NSS" bidirectional line)
+				(alternate "SPI3_NSS" bidirectional line)
+				(alternate "SWPMI1_SUSPEND" bidirectional line)
+				(alternate "TIM2_CH1" bidirectional line)
+				(alternate "TIM2_ETR" bidirectional line)
+				(alternate "TSC_G3_IO1" bidirectional line)
+				(alternate "USART2_RX" input line)
+				(alternate "USART3_RTS_DE" bidirectional line)
+			)
+		)
+		(symbol "STM32L431-QFN48_2_1"
+			(rectangle
+				(start 0 40.64)
+				(end 20.32 0)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin bidirectional line
+				(at -3.81 39.37 0)
+				(length 3.81)
+				(name "PB0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "18"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "ADC1_IN15" input line)
+				(alternate "COMP1_OUT" output line)
+				(alternate "EVENTOUT" output line)
+				(alternate "QUADSPI_BK1_IO1" bidirectional line)
+				(alternate "SAI1_EXTCLK" bidirectional line)
+				(alternate "SPI1_NSS" bidirectional line)
+				(alternate "TIM1_CH2N" bidirectional line)
+				(alternate "USART3_CK" bidirectional line)
+			)
+			(pin bidirectional line
+				(at -3.81 36.83 0)
+				(length 3.81)
+				(name "PB1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "19"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "ADC1_IN16" input line)
+				(alternate "COMP1_INM" input line)
+				(alternate "EVENTOUT" output line)
+				(alternate "LPTIM2_IN1" bidirectional line)
+				(alternate "LPUART1_RTS_DE" bidirectional line)
+				(alternate "QUADSPI_BK1_IO0" bidirectional line)
+				(alternate "TIM1_CH3N" bidirectional line)
+				(alternate "USART3_RTS_DE" bidirectional line)
+			)
+			(pin bidirectional line
+				(at -3.81 34.29 0)
+				(length 3.81)
+				(name "PB2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "20"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "COMP1_INP" input line)
+				(alternate "EVENTOUT" output line)
+				(alternate "I2C3_SMBA" bidirectional line)
+				(alternate "LPTIM1_OUT" bidirectional line)
+				(alternate "RTC_OUT" output line)
+			)
+			(pin bidirectional line
+				(at -3.81 13.97 0)
+				(length 3.81)
+				(name "PB10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "21"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "COMP1_OUT" output line)
+				(alternate "EVENTOUT" output line)
+				(alternate "I2C3_SCL" bidirectional line)
+				(alternate "LPUART1_RX" input line)
+				(alternate "QUADSPI_CLK" output line)
+				(alternate "SAI1_SCK_A" bidirectional line)
+				(alternate "SPI2_SCK" bidirectional line)
+				(alternate "TIM2_CH2" bidirectional line)
+				(alternate "TSC_SYNC" bidirectional line)
+				(alternate "USART3_TX" output line)
+			)
+			(pin bidirectional line
+				(at -3.81 11.43 0)
+				(length 3.81)
+				(name "PB11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "22"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "COMP2_OUT" output line)
+				(alternate "EVENTOUT" output line)
+				(alternate "I2C2_SDA" bidirectional line)
+				(alternate "LPUART1_TX" output line)
+				(alternate "QUADSPI_BK1_NCS" bidirectional line)
+				(alternate "TIM2_CH4" bidirectional line)
+				(alternate "USART3_RX" input line)
+			)
+			(pin bidirectional line
+				(at -3.81 8.89 0)
+				(length 3.81)
+				(name "PB12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "25"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "EVENTOUT" power_in line)
+				(alternate "I2C2_SMBA" power_in line)
+				(alternate "LPUART1_RTS_DE" power_in line)
+				(alternate "SAI1_FS_A" power_in line)
+				(alternate "SPI2_NSS" power_in line)
+				(alternate "SWPMI1_IO" power_in line)
+				(alternate "TIM15_BKIN" power_in line)
+				(alternate "TIM1_BKIN" power_in line)
+				(alternate "TIM1_BKIN_COMP2" power_in line)
+				(alternate "TSC_G1_IO1" power_in line)
+				(alternate "USART3_CK" power_in line)
+			)
+			(pin bidirectional line
+				(at -3.81 6.35 0)
+				(length 3.81)
+				(name "PB13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "26"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "EVENTOUT" output line)
+				(alternate "I2C2_SCL" bidirectional line)
+				(alternate "LPUART1_CTS" bidirectional line)
+				(alternate "SAI1_SCK_A" bidirectional line)
+				(alternate "SPI2_SCK" bidirectional line)
+				(alternate "SWPMI1_TX" bidirectional line)
+				(alternate "TIM15_CH1N" bidirectional line)
+				(alternate "TIM1_CH1N" bidirectional line)
+				(alternate "TSC_G1_IO2" bidirectional line)
+				(alternate "USART3_CTS" bidirectional line)
+			)
+			(pin bidirectional line
+				(at -3.81 3.81 0)
+				(length 3.81)
+				(name "PB14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "27"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "EVENTOUT" output line)
+				(alternate "I2C2_SDA" bidirectional line)
+				(alternate "SAI1_MCLK_A" bidirectional line)
+				(alternate "SPI2_MISO" bidirectional line)
+				(alternate "SWPMI1_RX" bidirectional line)
+				(alternate "TIM15_CH1" bidirectional line)
+				(alternate "TIM1_CH2N" bidirectional line)
+				(alternate "TSC_G1_IO3" bidirectional line)
+				(alternate "USART3_RTS_DE" bidirectional line)
+			)
+			(pin bidirectional line
+				(at -3.81 1.27 0)
+				(length 3.81)
+				(name "PB15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "28"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "EVENTOUT" output line)
+				(alternate "RTC_REFIN" bidirectional line)
+				(alternate "SAI1_SD_A" bidirectional line)
+				(alternate "SPI2_MOSI" bidirectional line)
+				(alternate "SWPMI1_SUSPEND" bidirectional line)
+				(alternate "TIM15_CH2" bidirectional line)
+				(alternate "TIM1_CH3N" bidirectional line)
+				(alternate "TSC_G1_IO4" bidirectional line)
+			)
+			(pin bidirectional line
+				(at -3.81 31.75 0)
+				(length 3.81)
+				(name "PB3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "39"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "COMP2_INM" bidirectional line)
+				(alternate "EVENTOUT" output line)
+				(alternate "JTDO" output line)
+				(alternate "SAI1_SCK_B" bidirectional line)
+				(alternate "SPI1_SCK" bidirectional line)
+				(alternate "SPI3_SCK" bidirectional line)
+				(alternate "TIM2_CH2" bidirectional line)
+				(alternate "TRACESWO" output line)
+				(alternate "USART1_RTS_DE" bidirectional line)
+			)
+			(pin bidirectional line
+				(at -3.81 29.21 0)
+				(length 3.81)
+				(name "PB4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "40"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "COMP2_INP" input line)
+				(alternate "EVENTOUT" output line)
+				(alternate "I2C3_SDA" bidirectional line)
+				(alternate "NJTRST" input line)
+				(alternate "SAI1_MCLK_B" bidirectional line)
+				(alternate "SPI1_MISO" bidirectional line)
+				(alternate "SPI3_MISO" bidirectional line)
+				(alternate "TSC_G2_IO1" bidirectional line)
+				(alternate "USART1_CTS" bidirectional line)
+			)
+			(pin bidirectional line
+				(at -3.81 26.67 0)
+				(length 3.81)
+				(name "PB5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "41"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "COMP2_OUT" output line)
+				(alternate "EVENTOUT" output line)
+				(alternate "I2C1_SMBA" bidirectional line)
+				(alternate "LPTIM1_IN1" input line)
+				(alternate "SAI1_SD_B" bidirectional line)
+				(alternate "SPI1_MOSI" bidirectional line)
+				(alternate "SPI3_MOSI" bidirectional line)
+				(alternate "TIM16_BKIN" bidirectional line)
+				(alternate "TSC_G2_IO2" bidirectional line)
+				(alternate "USART1_CK" bidirectional line)
+			)
+			(pin bidirectional line
+				(at -3.81 24.13 0)
+				(length 3.81)
+				(name "PB6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "42"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "COMP2_INP" input line)
+				(alternate "EVENTOUT" output line)
+				(alternate "I2C1_SCL" bidirectional line)
+				(alternate "LPTIM1_ETR" bidirectional line)
+				(alternate "SAI1_FS_B" bidirectional line)
+				(alternate "TIM16_CH1N" bidirectional line)
+				(alternate "TIM21_CH1" bidirectional line)
+				(alternate "TSC_G2_IO3" bidirectional line)
+				(alternate "USART1_TX" output line)
+			)
+			(pin bidirectional line
+				(at -3.81 21.59 0)
+				(length 3.81)
+				(name "PB7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "43"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "COMP2_INM" input line)
+				(alternate "EVENTOUT" output line)
+				(alternate "I2C1_SDA" bidirectional line)
+				(alternate "LPTIM1_IN2" input line)
+				(alternate "PVD_IN" input line)
+				(alternate "TSC_G2_IO4" bidirectional line)
+				(alternate "USART1_RX" input line)
+			)
+			(pin bidirectional line
+				(at -3.81 19.05 0)
+				(length 3.81)
+				(name "PB8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "45"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "CAN1_RX" input line)
+				(alternate "EVENTOUT" output line)
+				(alternate "I2C1_SCL" bidirectional line)
+				(alternate "SAI1_MCLK_A" bidirectional line)
+				(alternate "SDMMC1_D4" bidirectional line)
+				(alternate "TIM16_CH1" bidirectional line)
+			)
+			(pin bidirectional line
+				(at -3.81 16.51 0)
+				(length 3.81)
+				(name "PB9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "46"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "CAN1_TX" output line)
+				(alternate "EVENTOUT" output line)
+				(alternate "I2C1_SDA" bidirectional line)
+				(alternate "IR_OUT" bidirectional line)
+				(alternate "SA_1_FS_A" bidirectional line)
+				(alternate "SDMMC1_D5" bidirectional line)
+				(alternate "SPI2_NSS" bidirectional line)
+			)
+		)
+		(symbol "STM32L431-QFN48_3_1"
+			(rectangle
+				(start 0 7.62)
+				(end 20.32 0)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin bidirectional line
+				(at -3.81 6.35 0)
+				(length 3.81)
+				(name "PC13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "EVENTOUT" output line)
+				(alternate "RTC_OUT" bidirectional line)
+				(alternate "RTC_TAMP1" bidirectional line)
+				(alternate "RTC_TS" bidirectional line)
+				(alternate "WKUP2" bidirectional line)
+			)
+			(pin bidirectional line
+				(at -3.81 3.81 0)
+				(length 3.81)
+				(name "PC14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "EVENTOUT" output line)
+				(alternate "OSC32_IN" input line)
+			)
+			(pin bidirectional line
+				(at -3.81 1.27 0)
+				(length 3.81)
+				(name "PC15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "EVENTOUT" output line)
+				(alternate "OSC32_OUT" output line)
+			)
+		)
+		(symbol "STM32L431-QFN48_4_1"
+			(rectangle
+				(start 0 38.1)
+				(end 15.24 0)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin power_in line
+				(at -3.81 36.83 0)
+				(length 3.81)
+				(name "VBAT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -3.81 16.51 0)
+				(length 3.81)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "23"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -3.81 29.21 0)
+				(length 3.81)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "24"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -3.81 11.43 0)
+				(length 3.81)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "35"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -3.81 26.67 0)
+				(length 3.81)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "36"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -3.81 1.27 0)
+				(length 3.81)
+				(name "BOOT0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "44"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "EVENTOUT" output line)
+				(alternate "PH3" bidirectional line)
+			)
+			(pin power_in line
+				(at -3.81 13.97 0)
+				(length 3.81)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "47"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -3.81 24.13 0)
+				(length 3.81)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "48"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -3.81 3.81 0)
+				(length 3.81)
+				(name "NRST"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -3.81 8.89 0)
+				(length 3.81)
+				(name "VSSA"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -3.81 34.29 0)
+				(length 3.81)
+				(name "VDDA"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -3.81 19.05 0)
+				(length 3.81)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "PAD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "STM32L431-QFN48_5_1"
+			(rectangle
+				(start 0 5.08)
+				(end 15.24 0)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin bidirectional line
+				(at -3.81 3.81 0)
+				(length 3.81)
+				(name "PH0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "EVENTOUT" output line)
+				(alternate "OSC_IN" input line)
+			)
+			(pin bidirectional line
+				(at -3.81 1.27 0)
+				(length 3.81)
+				(name "PH1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "EVENTOUT" output line)
+				(alternate "OSC_OUT" output line)
+			)
+		)
+	)
 	(symbol "STM32L431VxIx"
 		(exclude_from_sim no)
 		(in_bom yes)
