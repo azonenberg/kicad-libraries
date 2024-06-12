@@ -6970,7 +6970,7 @@
 				(alternate "SAI4_CK1" input line)
 				(alternate "SAI4_MCLK_A" input line)
 				(alternate "SPI4_SCK" output line)
-				(alternate "TRACECLK" input line)
+				(alternate "TRACECLK" output line)
 				(alternate "USART10_RX" input line)
 			)
 			(pin bidirectional line
