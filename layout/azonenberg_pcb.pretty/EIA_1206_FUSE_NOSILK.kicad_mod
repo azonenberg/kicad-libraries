@@ -1,15 +1,89 @@
-(module EIA_1206_FUSE_NOSILK (layer F.Cu) (tedit 5EF3DA81)
-  (fp_text reference EIA_1206_FUSE_NOSILK (at 0.2 2.1) (layer F.SilkS)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_text value EIA_1206_FUSE_NOSILK (at 0 3.7) (layer F.SilkS) hide
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (pad 1 smd rect (at -1.5 0.01493) (size 1 1.9) (layers F.Cu F.Paste F.Mask))
-  (pad 2 smd rect (at 1.5 0.01493) (size 1 1.9) (layers F.Cu F.Paste F.Mask))
-  (model :datasheets:BelFuse/Fuse/0ZCJ0010FF2E--3DModel-STEP-56544.step
-    (at (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz -90 0 0))
-  )
+(footprint "EIA_1206_FUSE_NOSILK"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "EIA_1206_FUSE_NOSILK"
+		(at 0.2 2.1 0)
+		(layer "F.SilkS")
+		(uuid "56d441ad-b3d0-47d3-8408-36d796c261ad")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "EIA_1206_FUSE_NOSILK"
+		(at 0 3.7 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "1bea90fc-3c6c-4771-8bd8-e739adc31fcc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "EIA_1206_FUSE_NOSILK"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b4dc4ecb-2158-4332-aca3-396469fb34da")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d0820dab-34a7-4886-a68e-79c94075b08c")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "60365ec1-2a61-452f-9d97-9ea31d3ac1af")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(pad "1" smd rect
+		(at -1.5 0.01493)
+		(size 1 1.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "785bf5ba-1f3d-4286-b5fa-14df844414a7")
+	)
+	(pad "2" smd rect
+		(at 1.5 0.01493)
+		(size 1 1.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "237de529-cd2f-4b34-b42d-8587b7f0a2b6")
+	)
+	(model ":DATASHEETS:BelFuse/Fuse/0ZCJ0010FF2E--3DModel-STEP-56544.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
 )
