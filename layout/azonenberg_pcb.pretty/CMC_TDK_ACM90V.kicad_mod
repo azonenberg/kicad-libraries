@@ -1,30 +1,182 @@
-(footprint "CMC_TDK_ACM90V" (version 20211014) (generator pcbnew)
-  (layer "F.Cu")
-  (tedit 0)
-  (attr smd)
-  (fp_text reference "REF**" (at 0 5.5 unlocked) (layer "F.SilkS")
-    (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp f6f2e9a8-e519-47df-bd1c-9a6eb17f1e05)
-  )
-  (fp_text value "CMC_TDK_ACM90V" (at 0 7 unlocked) (layer "F.Fab")
-    (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp 0f090f24-7655-4788-8e8d-0e706b9778a2)
-  )
-  (fp_line (start -4 -4) (end -5 -4) (layer "F.SilkS") (width 0.15) (tstamp 021b6bf7-b890-496e-befa-13a2da074088))
-  (fp_line (start 4 4) (end 5 4) (layer "F.SilkS") (width 0.15) (tstamp 0f547076-9032-4926-af53-a738348f7407))
-  (fp_line (start -5 3) (end -5 4) (layer "F.SilkS") (width 0.15) (tstamp 1a2342db-4f66-4853-92be-96a88c091272))
-  (fp_line (start 5 -4) (end 4 -4) (layer "F.SilkS") (width 0.15) (tstamp 1d9e9623-2633-4afd-9eb7-5d111f140d46))
-  (fp_line (start 5 -3) (end 5 -4) (layer "F.SilkS") (width 0.15) (tstamp 61babf15-0809-4dd0-ab94-a4d1cc0d4c7d))
-  (fp_line (start 5 4) (end 5 3) (layer "F.SilkS") (width 0.15) (tstamp b2b9b7ec-3390-49a3-9395-62bca4be55b8))
-  (fp_line (start -4 4) (end -5 4) (layer "F.SilkS") (width 0.15) (tstamp e5711e29-18ba-432d-898e-30e5ce3f2c8f))
-  (fp_line (start -5 -4) (end -5 -3) (layer "F.SilkS") (width 0.15) (tstamp ed1ff88f-3c60-4695-9a22-769f00c061d7))
-  (pad "1" smd rect (at -4.25 -1.75) (size 2.5 1.5) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp d0ad4b5a-fa8b-478c-aaaa-5c0113574cdf))
-  (pad "2" smd rect (at -4.25 1.75) (size 2.5 1.5) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp c9ad8509-0c73-4e00-aa1d-5396d4867bb6))
-  (pad "3" smd rect (at 4.25 1.75) (size 2.5 1.5) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 3e7e558c-49d4-438b-80db-2b5c552fedbf))
-  (pad "4" smd rect (at 4.25 -1.75) (size 2.5 1.5) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 7f5d4cb8-b0f2-4d39-a8dc-676cb17b7d07))
-  (model ":share:TDK/CMC/acm90v.step"
-    (offset (xyz 4.5 -4.25 -7.5))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 90))
-  )
+(footprint "CMC_TDK_ACM90V"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 5.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "f6f2e9a8-e519-47df-bd1c-9a6eb17f1e05")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "CMC_TDK_ACM90V"
+		(at 0 7 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "0f090f24-7655-4788-8e8d-0e706b9778a2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "CMC_TDK_ACM90V"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3364d1f5-a148-49e9-b01b-83f87de54b9e")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dfb46487-bec5-49ee-ac4a-04f611da959a")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fb108d14-466e-490c-afc2-28356e92c068")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -5 -4)
+		(end -5 -3)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ed1ff88f-3c60-4695-9a22-769f00c061d7")
+	)
+	(fp_line
+		(start -5 3)
+		(end -5 4)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1a2342db-4f66-4853-92be-96a88c091272")
+	)
+	(fp_line
+		(start -4 -4)
+		(end -5 -4)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "021b6bf7-b890-496e-befa-13a2da074088")
+	)
+	(fp_line
+		(start -4 4)
+		(end -5 4)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e5711e29-18ba-432d-898e-30e5ce3f2c8f")
+	)
+	(fp_line
+		(start 4 4)
+		(end 5 4)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0f547076-9032-4926-af53-a738348f7407")
+	)
+	(fp_line
+		(start 5 -4)
+		(end 4 -4)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1d9e9623-2633-4afd-9eb7-5d111f140d46")
+	)
+	(fp_line
+		(start 5 -3)
+		(end 5 -4)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "61babf15-0809-4dd0-ab94-a4d1cc0d4c7d")
+	)
+	(fp_line
+		(start 5 4)
+		(end 5 3)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b2b9b7ec-3390-49a3-9395-62bca4be55b8")
+	)
+	(pad "1" smd rect
+		(at -4.25 -1.75)
+		(size 2.5 1.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "d0ad4b5a-fa8b-478c-aaaa-5c0113574cdf")
+	)
+	(pad "2" smd rect
+		(at -4.25 1.75)
+		(size 2.5 1.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "c9ad8509-0c73-4e00-aa1d-5396d4867bb6")
+	)
+	(pad "3" smd rect
+		(at 4.25 1.75)
+		(size 2.5 1.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "3e7e558c-49d4-438b-80db-2b5c552fedbf")
+	)
+	(pad "4" smd rect
+		(at 4.25 -1.75)
+		(size 2.5 1.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "7f5d4cb8-b0f2-4d39-a8dc-676cb17b7d07")
+	)
+	(model ":SHARE:TDK/CMC/acm90v.step"
+		(offset
+			(xyz 4.5 -4.25 -7.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 90)
+		)
+	)
 )

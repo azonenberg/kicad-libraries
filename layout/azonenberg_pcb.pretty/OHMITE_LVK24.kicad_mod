@@ -1,22 +1,100 @@
-(footprint "OHMITE_LVK24" (version 20211014) (generator pcbnew)
-  (layer "F.Cu")
-  (tedit 56440006)
-  (attr through_hole)
-  (fp_text reference "REF**" (at 0 7) (layer "F.SilkS")
-    (effects (font (size 1.5 1.5) (thickness 0.15)))
-    (tstamp bbb45adb-c45d-4a41-a709-7d01dc001aa4)
-  )
-  (fp_text value "OHMITE_LVK24" (at 0 5.5) (layer "F.Fab")
-    (effects (font (size 1.5 1.5) (thickness 0.15)))
-    (tstamp b7a8082b-7529-4aae-a628-5182108e8303)
-  )
-  (pad "1" smd rect (at -1.25 -2.625) (size 1.9 3.25) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp cc79a8ad-80ca-4cff-9c40-149883bacb7e))
-  (pad "2" smd rect (at 1.25 -2.625) (size 1.9 3.25) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 14e81128-5127-4877-9927-7623165e2303))
-  (pad "3" smd rect (at -1.25 2.625) (size 1.9 3.25) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp af561ad9-3ea7-4380-84eb-48f712242788))
-  (pad "4" smd rect (at 1.25 2.625) (size 1.9 3.25) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 78cd2e51-35a7-4771-954d-44f902bdfa60))
-  (model ":share:Ohmite/LVK24_OHM.step"
-    (offset (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 90))
-  )
+(footprint "OHMITE_LVK24"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 7 0)
+		(layer "F.SilkS")
+		(uuid "bbb45adb-c45d-4a41-a709-7d01dc001aa4")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "OHMITE_LVK24"
+		(at 0 5.5 0)
+		(layer "F.Fab")
+		(uuid "b7a8082b-7529-4aae-a628-5182108e8303")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "OHMITE_LVK24"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "501d5bec-745b-406d-9940-1dac651b642e")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5e6e872e-7001-48d7-be0b-c42b3a1db904")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ad1604f0-6a58-4b4d-b535-2fc377eef232")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(pad "1" smd rect
+		(at -1.25 -2.625)
+		(size 1.9 3.25)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "cc79a8ad-80ca-4cff-9c40-149883bacb7e")
+	)
+	(pad "2" smd rect
+		(at 1.25 -2.625)
+		(size 1.9 3.25)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "14e81128-5127-4877-9927-7623165e2303")
+	)
+	(pad "3" smd rect
+		(at -1.25 2.625)
+		(size 1.9 3.25)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "af561ad9-3ea7-4380-84eb-48f712242788")
+	)
+	(pad "4" smd rect
+		(at 1.25 2.625)
+		(size 1.9 3.25)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "78cd2e51-35a7-4771-954d-44f902bdfa60")
+	)
+	(model ":SHARE:Ohmite/LVK24_OHM.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 90)
+		)
+	)
 )
