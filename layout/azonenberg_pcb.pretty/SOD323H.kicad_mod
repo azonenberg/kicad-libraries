@@ -1,0 +1,98 @@
+(footprint "SOD323H"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.45 5.35 0)
+		(layer "F.SilkS")
+		(uuid "88a49cf9-020f-4859-ab8b-06b0a8d3244e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SOD323H"
+		(at 0.45 4.35 0)
+		(layer "F.Fab")
+		(uuid "ad43be51-021d-4f13-87ac-b59adfe61fda")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "SOD323H"
+		(at 0.45 1.85 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2884bee5-817a-4241-996e-12e33f77d5bc")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "928c2ba1-999d-46ad-881a-ef073f6fa926")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b5c6cbee-c5cc-4b98-a164-f398ca50ed26")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -1.6 -0.5)
+		(end -1.6 0.5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1648db63-451e-4f5b-a9f1-9922cc66ebea")
+	)
+	(pad "1" smd rect
+		(at -0.5 0)
+		(size 2 1.1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "b7c95f43-ee42-4d4d-883f-348305276286")
+	)
+	(pad "2" smd rect
+		(at 1.415 0)
+		(size 0.8 1.1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "4f786945-37ff-4ca5-af30-d635a0290bd6")
+	)
+	(model "${WALTER}/smd_diode/sod323.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 180)
+		)
+	)
+)

@@ -1,0 +1,122 @@
+(footprint "DFN_6_0.5MM_1.4x1.00MM_NXP_X2-DFN1410-6"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 2.5 0)
+		(layer "F.SilkS")
+		(uuid "0ae53e3d-c60a-4bcd-842d-fac4043b0fab")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "DFN_6_0.5MM_1.4x1.00MM_NXP_X2-DFN1410-6"
+		(at 0 1.5 0)
+		(layer "F.Fab")
+		(uuid "476f57e4-9243-4f7d-9e7b-469e3744cd69")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "DFN_6_0.5MM_1.4x1.00MM_NXP_X2-DFN1410-6"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e479e9f8-ce96-4377-a27e-ffdcff487bf7")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2093d20a-0e7e-4c58-8a4d-59fb3ad00029")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3d16c399-b67f-4546-b96b-9913c05e5c02")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -0.8 0.15)
+		(end -0.8 0.6)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d7aebc41-bdec-4326-9d95-bfccd147e28f")
+	)
+	(pad "1" smd rect
+		(at -0.5 0.35)
+		(size 0.25 0.525)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "b875a2a8-f904-470c-9905-10af5fea40bb")
+	)
+	(pad "2" smd rect
+		(at 0 0.35)
+		(size 0.25 0.525)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "bdb41297-ac3c-4d0c-9533-bc90f545b0b3")
+	)
+	(pad "3" smd rect
+		(at 0.5 0.35)
+		(size 0.25 0.525)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "2c80a57f-883c-4d13-acc7-9ca0bd2bd046")
+	)
+	(pad "4" smd rect
+		(at 0.5 -0.35)
+		(size 0.25 0.525)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "ef4c0b72-e871-4562-a37c-1c1bb6a21ffc")
+	)
+	(pad "5" smd rect
+		(at 0 -0.35)
+		(size 0.25 0.525)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "05100f93-3d51-4392-8baf-aedbefb53015")
+	)
+	(pad "6" smd rect
+		(at -0.5 -0.35)
+		(size 0.25 0.525)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "1bee6b1c-c4c7-4f0c-8233-9098542bcc24")
+	)
+	(model ":WALTER:smd_qfn/dfn-s-8.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 0.25 0.15 0.5)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
