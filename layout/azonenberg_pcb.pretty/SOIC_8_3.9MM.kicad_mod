@@ -1,26 +1,145 @@
-(module SOIC_8_3.9MM (layer F.Cu) (tedit 6195C470)
-  (fp_text reference SOIC_8_3.9MM (at -0.15 -5.23) (layer F.SilkS)
-    (effects (font (size 0.508 0.457) (thickness 0.11)))
-  )
-  (fp_text value VAL** (at 0.08 -0.23) (layer F.SilkS) hide
-    (effects (font (size 0.508 0.457) (thickness 0.11)))
-  )
-  (fp_line (start -2.5 -2) (end -2.5 2) (layer F.SilkS) (width 0.2))
-  (fp_line (start -2.5 2) (end 2.5 2) (layer F.SilkS) (width 0.2))
-  (fp_line (start 2.5 2) (end 2.5 -2) (layer F.SilkS) (width 0.2))
-  (fp_line (start 2.5 -2) (end -2.5 -2) (layer F.SilkS) (width 0.2))
-  (fp_line (start -2.5 1) (end -1.5 2) (layer F.SilkS) (width 0.2))
-  (pad 1 smd rect (at -1.905 3) (size 0.65 1.7) (layers F.Cu F.Paste F.Mask))
-  (pad 2 smd rect (at -0.635 3) (size 0.65 1.7) (layers F.Cu F.Paste F.Mask))
-  (pad 3 smd rect (at 0.635 3) (size 0.65 1.7) (layers F.Cu F.Paste F.Mask))
-  (pad 4 smd rect (at 1.905 3) (size 0.65 1.7) (layers F.Cu F.Paste F.Mask))
-  (pad 5 smd rect (at 1.905 -3) (size 0.65 1.7) (layers F.Cu F.Paste F.Mask))
-  (pad 6 smd rect (at 0.635 -3) (size 0.65 1.7) (layers F.Cu F.Paste F.Mask))
-  (pad 7 smd rect (at -0.635 -3) (size 0.65 1.7) (layers F.Cu F.Paste F.Mask))
-  (pad 8 smd rect (at -1.905 -3) (size 0.65 1.7) (layers F.Cu F.Paste F.Mask))
-  (model :walter:smd_dil/so-8.wrl
-    (at (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
+(footprint "SOIC_8_3.9MM"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "SOIC_8_3.9MM"
+		(at -0.15 -5.23 0)
+		(layer "F.SilkS")
+		(uuid "327befe8-e2b4-4889-8dbf-0ac5ee0c6f50")
+		(effects
+			(font
+				(size 0.508 0.457)
+				(thickness 0.11)
+			)
+		)
+	)
+	(property "Value" "VAL**"
+		(at 0.08 -0.23 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "e6c1a040-6bfd-4b02-ad12-9e475bd2148e")
+		(effects
+			(font
+				(size 0.508 0.457)
+				(thickness 0.11)
+			)
+		)
+	)
+	(property "Footprint" "SOIC_8_3.9MM"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "eaec1efa-91e4-4886-926b-4eb4ca7e3545")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d3318a7d-e689-418b-afff-16b9e517ccab")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "297ef3df-30b5-4e42-8296-34ec378ac3db")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -2.6 2.5)
+		(end -2.6 4.25)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bf81b563-4986-40ff-8f1a-91aaaa3beab3")
+	)
+	(fp_line
+		(start -2.6 4.25)
+		(end -0.85 4.25)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0dff6a68-ab6d-41c6-934e-1bab792bcad5")
+	)
+	(pad "1" smd rect
+		(at -1.905 3)
+		(size 0.65 1.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "c72ce278-c918-438b-8810-e28be21e853f")
+	)
+	(pad "2" smd rect
+		(at -0.635 3)
+		(size 0.65 1.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "4705d169-f0fc-42fb-aee2-512bd5403d58")
+	)
+	(pad "3" smd rect
+		(at 0.635 3)
+		(size 0.65 1.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "2e86b75b-a008-4ed8-ae31-2b8433aca4e6")
+	)
+	(pad "4" smd rect
+		(at 1.905 3)
+		(size 0.65 1.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "ae831b21-4536-46b8-b477-e0aa949e11a8")
+	)
+	(pad "5" smd rect
+		(at 1.905 -3)
+		(size 0.65 1.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "ff62d80d-b3cb-4ec7-aa82-23af86aee24a")
+	)
+	(pad "6" smd rect
+		(at 0.635 -3)
+		(size 0.65 1.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "81b8134b-805b-4118-95ff-8eb4ff047ae4")
+	)
+	(pad "7" smd rect
+		(at -0.635 -3)
+		(size 0.65 1.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "b519bbbe-4179-4ad2-819a-2b4edc685bee")
+	)
+	(pad "8" smd rect
+		(at -1.905 -3)
+		(size 0.65 1.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "2d1d6e5f-3e43-439a-8d46-c5d50c1264cc")
+	)
+	(model ":WALTER:smd_dil/so-8.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )
