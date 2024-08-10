@@ -1,0 +1,120 @@
+(footprint "SOD128"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "SOD128"
+		(at -0.05 2.65 0)
+		(layer "F.SilkS")
+		(uuid "fdba3340-ee87-4caf-898d-d2917d8e0183")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "VAL**"
+		(at -0.05 4.15 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "b0850039-04e8-41e0-8ada-b2b8dbb78cdb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "SOD128"
+		(at 0 -4 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "06ffbfbc-f834-4cba-98b0-b89839867611")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b99d8a74-0eb8-4e62-a2e0-d58bd3f09ea3")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "560c817a-da87-48ed-82f4-ba21cbab9911")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -3 -0.75)
+		(end -3 0.75)
+		(stroke
+			(width 0.125)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b8794988-bc39-4941-8caf-7c80cad269f7")
+	)
+	(fp_line
+		(start 2.75 1.75)
+		(end -2.75 1.75)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "974fbf9d-2e7b-4306-99fb-884cfeee710a")
+	)
+	(fp_rect
+		(start -2.75 -1.7754)
+		(end 2.75 -1.75)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill none)
+		(layer "Dwgs.User")
+		(uuid "c306279d-dc68-464e-bca8-b87e0bbc9cfd")
+	)
+	(pad "1" smd rect
+		(at -2.2 0)
+		(size 1.4 2.1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "278abb40-6229-4deb-aa06-e7168bed3ebc")
+	)
+	(pad "2" smd rect
+		(at 2.2 0)
+		(size 1.4 2.1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "59cfacfc-01f8-486d-937a-dc96d660ea0d")
+	)
+	(model "${DATASHEETS}/Generic/SOD-128 (CFP5) marking pin 1.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
