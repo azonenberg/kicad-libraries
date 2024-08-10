@@ -20658,14 +20658,14 @@
 			(pin power_in line
 				(at -3.81 19.05 0)
 				(length 3.81)
-				(name "PAD"
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "GND"
+				(number "PAD"
 					(effects
 						(font
 							(size 1.27 1.27)

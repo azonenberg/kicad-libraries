@@ -1,16 +1,98 @@
-(module SMA (layer F.Cu) (tedit 5ED02A62)
-  (fp_text reference REF** (at 0 1.7) (layer F.SilkS)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_text value SMA (at 0 -1.5) (layer F.Fab)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_line (start -2.8 -0.8) (end -2.8 0.8) (layer F.SilkS) (width 0.15))
-  (pad 1 smd rect (at -1.75 0) (size 1.8 1.68) (layers F.Cu F.Paste F.Mask))
-  (pad 2 smd rect (at 1.75 0) (size 1.8 1.68) (layers F.Cu F.Paste F.Mask))
-  (model :walter:smd_diode/do214ac.wrl
-    (at (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 180))
-  )
+(footprint "SMA"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 1.7 0)
+		(layer "F.SilkS")
+		(uuid "55f84ba7-9f3b-41b8-918a-1cb5288f26cb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SMA"
+		(at 0 -1.5 0)
+		(layer "F.Fab")
+		(uuid "f42dfbf3-3905-4a40-8a17-340f77ff5071")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "SMA"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e82f690f-a837-4b4f-b7a8-95b5bd0eaae4")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1efd4fb1-97d2-4a51-bf9b-119dbaf618eb")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "963eda21-66a4-4808-9b04-fe8ec0a59561")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -2.8 -0.8)
+		(end -2.8 0.8)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9b67957f-180f-4326-b057-fa7eb5c60486")
+	)
+	(pad "1" smd rect
+		(at -1.75 0)
+		(size 1.8 1.68)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "42619450-9bee-4aec-9951-157063efebd4")
+	)
+	(pad "2" smd rect
+		(at 1.75 0)
+		(size 1.8 1.68)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "71cfc6f6-2c27-4677-8f6f-5b5e771bf3a4")
+	)
+	(model ":WALTER:smd_diode/do214ac.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 180)
+		)
+	)
 )
