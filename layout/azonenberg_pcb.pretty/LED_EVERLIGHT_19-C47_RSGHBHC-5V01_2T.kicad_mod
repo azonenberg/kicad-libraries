@@ -1,0 +1,108 @@
+(footprint "LED_EVERLIGHT_19-C47_RSGHBHC-5V01_2T"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 12.25 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "6621ce50-6e2a-4bb9-b9e0-8d53eedcb453")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "LED_EVERLIGHT_19-C47_RSGHBHC-5V01_2T"
+		(at 0 13.75 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "b475f3e0-3732-4fef-adb1-b0e8d40d73e9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "LED_EVERLIGHT_19-C47_RSGHBHC-5V01_2T"
+		(at 0 12.75 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "17cd2d7f-ad37-4ed4-8e18-8caa1b93dece")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 12.75 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2eed30f0-4aae-4989-92a5-5aedec8499cd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 12.75 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6d538cb5-d150-492f-acc7-db56cc59730f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start 1 -1.25)
+		(end 1.25 -1)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "877b927d-bc39-481d-b206-d8334bcb32c4")
+	)
+	(pad "1" smd rect
+		(at 0.55 -0.55)
+		(size 0.7 0.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "de6e2e14-636d-4da2-83de-42e802d7026c")
+	)
+	(pad "2" smd rect
+		(at 0.55 0.55)
+		(size 0.7 0.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "f1e8ea76-63cb-46a8-bf8d-98f1c530e53d")
+	)
+	(pad "3" smd rect
+		(at -0.55 0.55)
+		(size 0.7 0.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "5bd74add-bc60-45d2-ad03-190e1a8668fb")
+	)
+	(pad "4" smd rect
+		(at -0.55 -0.55)
+		(size 0.7 0.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "abd621a7-9569-4a39-995a-3e8875434a2b")
+	)
+)
