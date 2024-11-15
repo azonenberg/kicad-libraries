@@ -25,7 +25,7 @@
 			)
 		)
 	)
-	(property "Footprint" ""
+	(property "Footprint" "CONN_ZQSFP+_TE_1551920-2"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -106,6 +106,7 @@
 		(at -8.4 0)
 		(size 2.4 3)
 		(drill 1.55)
+		(property pad_prop_heatsink)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "539bbcb8-40bf-488a-a7aa-f2f0c6940632")
@@ -114,6 +115,7 @@
 		(at 8.4 0)
 		(size 2.4 3)
 		(drill 1.55)
+		(property pad_prop_heatsink)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "7dee39ca-e4c0-4665-80f8-f68de1765def")

@@ -1,12 +1,12 @@
-(footprint "CONN_HEADER_2.54MM_1x4"
+(footprint "CONN_HEADER_2.54MM_1x5_REFLOW"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at -3 4 0)
+		(at 0 4 0)
 		(layer "F.SilkS")
-		(uuid "3fa45a0b-7711-49a2-b276-7e59785f7862")
+		(uuid "6fd07d87-506b-4b35-97fe-0d87889f70fe")
 		(effects
 			(font
 				(size 1.5 1.5)
@@ -14,10 +14,10 @@
 			)
 		)
 	)
-	(property "Value" "CONN_2.54MM_1x4"
+	(property "Value" "CONN_2.54MM_1x5"
 		(at 1 -3 0)
 		(layer "F.Fab")
-		(uuid "9762784b-cc2a-4d34-8821-251219e64355")
+		(uuid "a9aac0a5-d123-4e3a-8650-3c6fa037c9df")
 		(effects
 			(font
 				(size 1.5 1.5)
@@ -25,12 +25,12 @@
 			)
 		)
 	)
-	(property "Footprint" "CONN_HEADER_2.54MM_1x4"
+	(property "Footprint" "CONN_HEADER_2.54MM_1x5_REFLOW"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "72834db9-38ef-4f56-9a8a-ee4311d7c6ab")
+		(uuid "5423e473-3dd1-4da9-9f24-95f9d0885d64")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -42,7 +42,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "918bb963-f19f-428d-b8b6-72e44d0da921")
+		(uuid "d07fe176-fa64-45d2-bc9c-44de1ee38a61")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -54,7 +54,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "beb7f3fb-cdef-4df7-b145-a4cf1c621ba1")
+		(uuid "584371bd-7375-4d0a-b329-fd5afc48fe51")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -63,88 +63,96 @@
 	)
 	(attr through_hole)
 	(fp_line
-		(start -6 -2)
-		(end -6 2)
+		(start -6.73 -2)
+		(end -6.73 2)
 		(stroke
 			(width 0.15)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "50661d68-3077-4b85-a7c4-1800998e6826")
+		(uuid "bc12171b-dad9-4f51-b55c-746e9839ca9b")
 	)
 	(fp_line
-		(start -6 2)
-		(end 5.54 2)
+		(start -6.73 2)
+		(end 6.73 2)
 		(stroke
 			(width 0.15)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "19f3a061-aa06-480c-83eb-da3ad923b6fd")
+		(uuid "0624eb1b-f54e-43ff-bdba-243bbaf9128f")
 	)
 	(fp_line
-		(start -5 -2)
-		(end -6 -1)
+		(start -5.73 -2)
+		(end -6.73 -1)
 		(stroke
 			(width 0.15)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "e08e0afe-8c14-464a-8182-bcc276195d3f")
+		(uuid "2b9d2af5-f17b-43db-bc9c-e7404ce08bc2")
 	)
 	(fp_line
-		(start 5.54 -2)
-		(end -6 -2)
+		(start 6.73 -2)
+		(end -6.73 -2)
 		(stroke
 			(width 0.15)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "c35d4632-2de5-44ab-9926-866ebc7eb8c0")
+		(uuid "79d95f3e-9f01-4c14-b344-f4c5fe9c0777")
 	)
 	(fp_line
-		(start 5.54 2)
-		(end 5.54 -2)
+		(start 6.73 2)
+		(end 6.73 -2)
 		(stroke
 			(width 0.15)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "4ea999fe-f074-4f76-8ae6-4a05f50eaa26")
+		(uuid "f4d14abe-b493-47cf-8596-4b420c037feb")
 	)
 	(pad "1" thru_hole circle
-		(at -3.81 0)
+		(at -5.08 0)
 		(size 1.524 1.524)
 		(drill 1)
-		(layers "*.Cu" "*.Mask")
+		(layers "*.Cu" "*.Mask" "F.Paste")
 		(remove_unused_layers no)
-		(uuid "4e6dddb3-6a41-42d9-b9cd-48ba30abb45a")
+		(uuid "13e95f67-81d3-4600-b341-f35b5c145bd7")
 	)
 	(pad "2" thru_hole circle
-		(at -1.27 0)
+		(at -2.54 0)
 		(size 1.524 1.524)
 		(drill 1)
-		(layers "*.Cu" "*.Mask")
+		(layers "*.Cu" "*.Mask" "F.Paste")
 		(remove_unused_layers no)
-		(uuid "39414592-54b5-4ff0-8e51-304b5fa67609")
+		(uuid "9d6f61dc-d0a6-4ea0-bf55-063f67a13ca8")
 	)
 	(pad "3" thru_hole circle
-		(at 1.27 0)
+		(at 0 0)
 		(size 1.524 1.524)
 		(drill 1)
-		(layers "*.Cu" "*.Mask")
+		(layers "*.Cu" "*.Mask" "F.Paste")
 		(remove_unused_layers no)
-		(uuid "2e540406-f2fe-425b-a1ff-75f3929840b1")
+		(uuid "4d3f13b8-6ad2-4c0e-9ff1-4616dd75784b")
 	)
 	(pad "4" thru_hole circle
-		(at 3.81 0)
+		(at 2.54 0)
 		(size 1.524 1.524)
 		(drill 1)
-		(layers "*.Cu" "*.Mask")
+		(layers "*.Cu" "*.Mask" "F.Paste")
 		(remove_unused_layers no)
-		(uuid "6ac42975-fecd-4713-8125-b7e6182f841a")
+		(uuid "1b1d7d87-54af-432a-841e-bc20f9c44257")
 	)
-	(model ":WALTER:pin_strip/pin_strip_4.wrl"
+	(pad "5" thru_hole circle
+		(at 5.08 0)
+		(size 1.524 1.524)
+		(drill 1)
+		(layers "*.Cu" "*.Mask" "F.Paste")
+		(remove_unused_layers no)
+		(uuid "75664b47-6276-4515-b4ec-30414948f524")
+	)
+	(model ":WALTER:pin_strip/pin_strip_5.wrl"
 		(offset
 			(xyz 0 0 0)
 		)
