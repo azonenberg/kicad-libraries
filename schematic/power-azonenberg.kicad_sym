@@ -3922,8 +3922,8 @@
 		)
 		(symbol "CONN_PCIE_PWR_8PIN_0_1"
 			(rectangle
-				(start 0 22.86)
-				(end -12.7 0)
+				(start -12.7 22.86)
+				(end 0 0)
 				(stroke
 					(width 0.1524)
 					(type default)
@@ -3991,7 +3991,7 @@
 			(pin power_in line
 				(at 3.81 13.97 180)
 				(length 3.81)
-				(name "12V0_SENSE"
+				(name "SENSE_B"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4027,7 +4027,7 @@
 			(pin power_in line
 				(at 3.81 6.35 180)
 				(length 3.81)
-				(name "GND_SENSE"
+				(name "SENSE_A"
 					(effects
 						(font
 							(size 1.27 1.27)
