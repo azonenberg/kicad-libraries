@@ -47919,7 +47919,7 @@
 						)
 					)
 				)
-				(number "5"
+				(number "6"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -65147,8 +65147,6 @@
 					(type background)
 				)
 			)
-		)
-		(symbol "LPJG47036AWNL_1_1"
 			(pin power_in line
 				(at -3.81 31.75 0)
 				(length 3.81)
@@ -65159,7 +65157,7 @@
 						)
 					)
 				)
-				(number "A0"
+				(number "SHLD"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -65167,6 +65165,8 @@
 					)
 				)
 			)
+		)
+		(symbol "LPJG47036AWNL_1_1"
 			(pin bidirectional line
 				(at 22.86 11.43 180)
 				(length 3.81)
@@ -65457,24 +65457,6 @@
 			)
 		)
 		(symbol "LPJG47036AWNL_2_1"
-			(pin power_in line
-				(at -3.81 31.75 0)
-				(length 3.81)
-				(name "SHLD"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "B0"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin bidirectional line
 				(at 22.86 11.43 180)
 				(length 3.81)
@@ -65765,24 +65747,6 @@
 			)
 		)
 		(symbol "LPJG47036AWNL_3_1"
-			(pin power_in line
-				(at -3.81 31.75 0)
-				(length 3.81)
-				(name "SHLD"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "C0"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin bidirectional line
 				(at 22.86 11.43 180)
 				(length 3.81)
@@ -66073,24 +66037,6 @@
 			)
 		)
 		(symbol "LPJG47036AWNL_4_1"
-			(pin power_in line
-				(at -3.81 31.75 0)
-				(length 3.81)
-				(name "SHLD"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "D0"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin bidirectional line
 				(at 22.86 11.43 180)
 				(length 3.81)
@@ -66381,24 +66327,6 @@
 			)
 		)
 		(symbol "LPJG47036AWNL_5_1"
-			(pin power_in line
-				(at -3.81 31.75 0)
-				(length 3.81)
-				(name "SHLD"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "E0"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin bidirectional line
 				(at 22.86 11.43 180)
 				(length 3.81)
@@ -66689,24 +66617,6 @@
 			)
 		)
 		(symbol "LPJG47036AWNL_6_1"
-			(pin power_in line
-				(at -3.81 31.75 0)
-				(length 3.81)
-				(name "SHLD"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "F0"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin bidirectional line
 				(at 22.86 11.43 180)
 				(length 3.81)
@@ -66997,24 +66907,6 @@
 			)
 		)
 		(symbol "LPJG47036AWNL_7_1"
-			(pin power_in line
-				(at -3.81 31.75 0)
-				(length 3.81)
-				(name "SHLD"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "G0"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin bidirectional line
 				(at 22.86 11.43 180)
 				(length 3.81)
@@ -67305,24 +67197,6 @@
 			)
 		)
 		(symbol "LPJG47036AWNL_8_1"
-			(pin power_in line
-				(at -3.81 31.75 0)
-				(length 3.81)
-				(name "SHLD"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "H0"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin bidirectional line
 				(at 22.86 11.43 180)
 				(length 3.81)
