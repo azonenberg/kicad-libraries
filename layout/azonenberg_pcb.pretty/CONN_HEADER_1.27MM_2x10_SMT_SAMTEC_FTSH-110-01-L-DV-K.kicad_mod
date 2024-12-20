@@ -227,15 +227,15 @@
 		(thermal_bridge_angle 45)
 		(uuid "5ee2b4eb-fe1a-4d29-897f-77a47056a9d5")
 	)
-	(model "${DATASHEETS}/Samtec/CON20_2X10_DUK_FTSH_SAI.step"
+	(model "${DATASHEETS}/Samtec/FTSH-110-01-L-DV-K-TR.stp"
 		(offset
-			(xyz 0 0 0)
+			(xyz 0 0 0.5)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -90 0 0)
 		)
 	)
 )
