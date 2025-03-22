@@ -9,8 +9,8 @@
 		(uuid "e96631ea-87d3-4757-b8ae-7827f208831d")
 		(effects
 			(font
-				(size 0.508 0.457)
-				(thickness 0.11425)
+				(size 0.75 0.75)
+				(thickness 0.1)
 			)
 		)
 	)
@@ -21,8 +21,8 @@
 		(uuid "54ca7ea6-15df-47d2-b989-1e23ba5617d1")
 		(effects
 			(font
-				(size 0.508 0.457)
-				(thickness 0.11425)
+				(size 0.75 0.75)
+				(thickness 0.1)
 			)
 		)
 	)
@@ -35,6 +35,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -47,6 +48,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -59,32 +61,13 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
 	(solder_mask_margin 0.05)
 	(solder_paste_ratio -0.1)
 	(attr smd)
-	(fp_line
-		(start -1.75 -1.75)
-		(end -1.75 -1.5)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "20a43375-2163-46be-8e61-45c0faee1a31")
-	)
-	(fp_line
-		(start -1.75 1.5)
-		(end -1.5 1.75)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "b2db9f2d-704e-423f-8b45-2c137963cfa5")
-	)
 	(fp_line
 		(start -1.75 1.75)
 		(end -1.75 1.5)
@@ -96,16 +79,6 @@
 		(uuid "f550bd56-1373-4e4a-9fa3-e8d50c48f108")
 	)
 	(fp_line
-		(start -1.5 -1.75)
-		(end -1.75 -1.75)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "df754a49-56f0-4352-b335-c0061851d80f")
-	)
-	(fp_line
 		(start -1.5 1.75)
 		(end -1.75 1.75)
 		(stroke
@@ -114,46 +87,6 @@
 		)
 		(layer "F.SilkS")
 		(uuid "7cb3de0b-571d-4906-8c43-5de6407af560")
-	)
-	(fp_line
-		(start 1.5 -1.75)
-		(end 1.75 -1.75)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "b048168a-035f-4c46-9ee7-3c24af58b29e")
-	)
-	(fp_line
-		(start 1.75 -1.75)
-		(end 1.75 -1.5)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "12b86169-37a6-4ae8-9d4c-11c8fb33cacb")
-	)
-	(fp_line
-		(start 1.75 1.5)
-		(end 1.75 1.75)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "85dad843-3776-41a1-a0d4-dd6e164611c0")
-	)
-	(fp_line
-		(start 1.75 1.75)
-		(end 1.5 1.75)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "d75f7c22-4c06-41bd-a9a7-0324528a6600")
 	)
 	(pad "1" smd rect
 		(at -1.075 0.95)
