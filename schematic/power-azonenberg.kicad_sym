@@ -3532,7 +3532,7 @@
 			)
 		)
 		(symbol "CONN_IBC_MGMT_HOST_1_1"
-			(pin power_out line
+			(pin power_in line
 				(at 3.81 11.43 180)
 				(length 3.81)
 				(name "3V3_SB"
@@ -3604,7 +3604,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin output line
 				(at 3.81 1.27 180)
 				(length 3.81)
 				(name "12V0_OUT_EN"

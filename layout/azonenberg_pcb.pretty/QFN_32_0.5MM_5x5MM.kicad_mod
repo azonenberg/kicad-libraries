@@ -34,6 +34,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -46,6 +47,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -58,14 +60,15 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
 	(solder_mask_margin 0.05)
 	(attr smd)
 	(fp_line
-		(start -3 -3)
-		(end -2 -3)
+		(start -2.85 -2.85)
+		(end -2.15 -2.85)
 		(stroke
 			(width 0.15)
 			(type solid)
@@ -74,8 +77,8 @@
 		(uuid "4ca962b9-37d3-488d-8ecf-1003401928bb")
 	)
 	(fp_line
-		(start -3 -2)
-		(end -3 -3)
+		(start -2.85 -2.15)
+		(end -2.85 -2.85)
 		(stroke
 			(width 0.15)
 			(type solid)
@@ -84,54 +87,14 @@
 		(uuid "c805f6f5-e404-4a5e-a01f-1abbaa54e147")
 	)
 	(fp_line
-		(start -3 -2)
-		(end -3 3)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "f0070307-bebe-4eba-a41f-4f98d3f8a56a")
-	)
-	(fp_line
-		(start -3 3)
-		(end 3 3)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "c04b2991-fe5d-42d4-9951-8698834460ee")
-	)
-	(fp_line
-		(start -2 -3)
-		(end -3 -2)
+		(start -2.15 -2.85)
+		(end -2.85 -2.15)
 		(stroke
 			(width 0.15)
 			(type solid)
 		)
 		(layer "F.SilkS")
 		(uuid "caab17df-7105-48db-91bf-36843cac644f")
-	)
-	(fp_line
-		(start 3 -3)
-		(end -2 -3)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "1f193217-3886-4322-8349-873bd5b9daab")
-	)
-	(fp_line
-		(start 3 3)
-		(end 3 -3)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "2a701efc-2f57-4f98-88a4-9a5c4a368a68")
 	)
 	(pad "" smd rect
 		(at -1.275 -1.275 180)

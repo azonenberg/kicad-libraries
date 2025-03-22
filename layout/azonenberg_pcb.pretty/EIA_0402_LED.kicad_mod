@@ -35,6 +35,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -47,6 +48,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -59,21 +61,22 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
 	(attr smd)
 	(pad "1" smd rect
-		(at -0.597 0)
-		(size 0.635 0.61)
+		(at -0.5 0)
+		(size 0.5 0.5)
 		(layers "F.Cu" "F.Paste" "F.Mask")
-		(uuid "8691c348-87d0-40e9-a083-6cc512436323")
+		(uuid "e3efb3e6-1a5c-4725-9f29-6c583c44eabc")
 	)
 	(pad "2" smd rect
-		(at 0.597 0)
-		(size 0.635 0.61)
+		(at 0.5 0)
+		(size 0.5 0.5)
 		(layers "F.Cu" "F.Paste" "F.Mask")
-		(uuid "cbc952b7-d5e4-4a03-8b1e-1d800ac80dd7")
+		(uuid "1e153650-c414-4385-853b-ad9f538d5311")
 	)
 	(model ":WALTER:smd_leds/led_0402.wrl"
 		(offset
