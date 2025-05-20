@@ -14175,7 +14175,7 @@
 				)
 				(alternate "COMP1_OUT" output line)
 				(alternate "EVENTOUT" output line)
-				(alternate "I2C3_SCL" bidirectional line)
+				(alternate "I2C2_SCL" bidirectional line)
 				(alternate "LPUART1_RX" input line)
 				(alternate "QUADSPI_CLK" output line)
 				(alternate "SAI1_SCK_A" bidirectional line)
