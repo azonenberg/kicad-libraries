@@ -1,18 +1,122 @@
-(module FAN_DELTA_EFB0412VHD-SP05 (layer F.Cu) (tedit 5EF42FCE)
-  (fp_text reference REF** (at 0 -5) (layer F.SilkS)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_text value FAN_DELTA_EFB0412VHD-SP05 (at 0 -3.5) (layer F.Fab)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_line (start -20 -10) (end -20 10) (layer Dwgs.User) (width 0.12))
-  (fp_line (start -20 10) (end 20 10) (layer Dwgs.User) (width 0.12))
-  (fp_line (start 20 10) (end 20 -10) (layer Dwgs.User) (width 0.12))
-  (fp_line (start 20 -10) (end -20 -10) (layer Dwgs.User) (width 0.12))
-  (pad 1 smd circle (at 0 0) (size 1.524 1.524) (layers Dwgs.User))
-  (model :datasheets:Delta/Fan/EFB0412VHD-SP05.stp
-    (offset (xyz 0 -10.5 20.5))
-    (scale (xyz 1 1 1))
-    (rotate (xyz -90 0 0))
-  )
+(footprint "FAN_DELTA_EFB0412VHD-SP05"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -5 0)
+		(layer "F.SilkS")
+		(uuid "43b7cf85-137f-4a5c-8d26-c7ed4bd7d65d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "FAN_DELTA_EFB0412VHD-SP05"
+		(at 0 -3.5 0)
+		(layer "F.Fab")
+		(uuid "368e149b-20ba-408e-997f-3f0679cd482b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "84c64f57-748d-4f60-9cb7-91dd43eb120b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7c56e9a6-3ae6-4a3a-a229-cca9c3d727ae")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6d0f510f-27c6-4ca9-b6df-f3a284cd0533")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -20 -10)
+		(end -20 10)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "8950cd39-a339-4cb5-9589-63f8577b4409")
+	)
+	(fp_line
+		(start -20 10)
+		(end 20 10)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "3ea2cfd2-a79a-4a6a-9182-e0858abf1a1d")
+	)
+	(fp_line
+		(start 20 -10)
+		(end -20 -10)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "3990f24d-a048-4049-b90f-b62ab7fa37f9")
+	)
+	(fp_line
+		(start 20 10)
+		(end 20 -10)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "6c1c59b3-4fd8-40b1-a1f4-20885088432d")
+	)
+	(pad "" smd circle
+		(at 0 0)
+		(size 1.524 1.524)
+		(layers "Dwgs.User")
+		(uuid "2c790570-f6ef-41df-ab89-1337186596bb")
+	)
+	(model ":DATASHEETS:Delta/Fan/EFB0412VHD-SP05.stp"
+		(offset
+			(xyz 0 -10.5 20.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
 )
