@@ -1,15 +1,78 @@
-(module EIA_0201_CAP_NOSILK (layer F.Cu) (tedit 53CF27BD)
-  (fp_text reference EIA_0201_CAP_NOSILK (at -0.05 0.75) (layer F.SilkS)
-    (effects (font (size 0.508 0.457) (thickness 0.11)))
-  )
-  (fp_text value VAL** (at 0.05 1.5) (layer F.SilkS) hide
-    (effects (font (size 0.508 0.457) (thickness 0.11)))
-  )
-  (pad 1 smd rect (at -0.22 0) (size 0.21 0.3) (layers F.Cu F.Paste F.Mask))
-  (pad 2 smd rect (at 0.22 0) (size 0.21 0.3) (layers F.Cu F.Paste F.Mask))
-  (model /nfs4/home/azonenberg/kicad-libs/3rdparty/walter/smd_cap/c_0402.wrl
-    (at (xyz 0 0 0))
-    (scale (xyz 0.5 0.5 0.5))
-    (rotate (xyz 0 0 0))
-  )
+(footprint "EIA_0201_CAP_NOSILK"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "EIA_0201_CAP_NOSILK"
+		(at -0.05 0.75 0)
+		(layer "F.SilkS")
+		(uuid "35c81d89-406a-4aa2-bae9-4fa000f33ac9")
+		(effects
+			(font
+				(size 0.508 0.457)
+				(thickness 0.11)
+			)
+		)
+	)
+	(property "Value" "VAL**"
+		(at 0.05 1.5 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "75a82566-c407-437b-ac9c-6a5c932a8dd8")
+		(effects
+			(font
+				(size 0.508 0.457)
+				(thickness 0.11)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "aff675d5-6347-4bf1-8b5d-fead562e49b3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a077704f-fc9a-46f8-a02c-7ac7e3e2ac2f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(pad "1" smd rect
+		(at -0.22 0)
+		(size 0.21 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "9d10e57a-eb20-4a25-a6be-46b959bfd2f8")
+	)
+	(pad "2" smd rect
+		(at 0.22 0)
+		(size 0.21 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "c901b519-90b8-4140-a4c2-cfd65150a500")
+	)
+	(embedded_fonts no)
+	(model ":WALTER:smd_cap/c_0402.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 0.5 0.5 0.5)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )
