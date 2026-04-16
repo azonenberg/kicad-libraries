@@ -50,7 +50,7 @@
 			)
 		)
 	)
-	(attr through_hole)
+	(attr smd)
 	(pad "1" smd rect
 		(at -0.22 0)
 		(size 0.21 0.3)
