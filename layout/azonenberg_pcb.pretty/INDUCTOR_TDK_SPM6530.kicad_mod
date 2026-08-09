@@ -1,23 +1,157 @@
-(module INDUCTOR_TDK_SPM6530 (layer F.Cu) (tedit 54A5BECD)
-  (fp_text reference INDUCTOR_TDK_SPM6530 (at 0 4) (layer F.SilkS)
-    (effects (font (size 0.508 0.457) (thickness 0.11425)))
-  )
-  (fp_text value VAL** (at 5 3.25) (layer F.SilkS)
-    (effects (font (size 0.508 0.457) (thickness 0.11425)))
-  )
-  (fp_line (start 3.75 3.5) (end 2.5 3.5) (layer F.SilkS) (width 0.15))
-  (fp_line (start 3.75 2.25) (end 3.75 3.5) (layer F.SilkS) (width 0.15))
-  (fp_line (start -3.75 3.5) (end -2.5 3.5) (layer F.SilkS) (width 0.15))
-  (fp_line (start -3.75 2.25) (end -3.75 3.5) (layer F.SilkS) (width 0.15))
-  (fp_line (start 3.75 -3.5) (end 2.5 -3.5) (layer F.SilkS) (width 0.15))
-  (fp_line (start 3.75 -2.25) (end 3.75 -3.5) (layer F.SilkS) (width 0.15))
-  (fp_line (start -3.75 -3.5) (end -2.5 -3.5) (layer F.SilkS) (width 0.15))
-  (fp_line (start -3.75 -2.25) (end -3.75 -3.5) (layer F.SilkS) (width 0.15))
-  (pad 1 smd rect (at -3.7 0) (size 1.85 3.4) (layers F.Cu F.Paste F.Mask))
-  (pad 2 smd rect (at 3.7 0) (size 1.85 3.4) (layers F.Cu F.Paste F.Mask))
-  (model /nfs4/home/azonenberg/kicad-libs/3rdparty/walter/smd_inductors/inductor_smd_6.5x4.8mm.wrl
-    (at (xyz 0 0 0))
-    (scale (xyz 1 1 0.5))
-    (rotate (xyz 0 0 90))
-  )
+(footprint "INDUCTOR_TDK_SPM6530"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "INDUCTOR_TDK_SPM6530"
+		(at 0 4 0)
+		(layer "F.SilkS")
+		(uuid "a8bb4e9d-71b6-4f76-acf1-444fb008aee8")
+		(effects
+			(font
+				(size 0.508 0.457)
+				(thickness 0.11425)
+			)
+		)
+	)
+	(property "Value" "VAL**"
+		(at 5 3.25 0)
+		(layer "F.SilkS")
+		(uuid "a738154d-f3c7-4434-892f-029d5b38221d")
+		(effects
+			(font
+				(size 0.508 0.457)
+				(thickness 0.11425)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4df1efac-63d1-4fd0-a703-bda6c271cded")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b3b88506-719b-4227-8dc4-bbf506c130ed")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -3.75 -3.5)
+		(end -2.5 -3.5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "50eb4360-3015-4e3c-b986-ef4de919acb9")
+	)
+	(fp_line
+		(start -3.75 -2.25)
+		(end -3.75 -3.5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6bfc8b99-f795-444a-b569-69661c376200")
+	)
+	(fp_line
+		(start -3.75 2.25)
+		(end -3.75 3.5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "352c43cc-d339-4558-831e-113bca6243e5")
+	)
+	(fp_line
+		(start -3.75 3.5)
+		(end -2.5 3.5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "47653712-b657-49d4-800d-b423781b1cc6")
+	)
+	(fp_line
+		(start 3.75 -3.5)
+		(end 2.5 -3.5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3cf399c7-ac01-4064-91cf-c45ec33ea753")
+	)
+	(fp_line
+		(start 3.75 -2.25)
+		(end 3.75 -3.5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f7c98f21-245b-4f6c-9edc-3e6fdbfc82fe")
+	)
+	(fp_line
+		(start 3.75 2.25)
+		(end 3.75 3.5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2ea2b465-2c30-42fa-82c1-c0612c558691")
+	)
+	(fp_line
+		(start 3.75 3.5)
+		(end 2.5 3.5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7417e083-8263-4478-a9f3-228860332af6")
+	)
+	(pad "1" smd rect
+		(at -3.7 0)
+		(size 1.85 3.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "c29f3019-c617-4eda-abb4-bf29c919562a")
+	)
+	(pad "2" smd rect
+		(at 3.7 0)
+		(size 1.85 3.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "79540328-63bf-4242-af5c-0c2722b754c8")
+	)
+	(embedded_fonts no)
+	(model ":WALTER:smd_inductors/inductor_smd_6.5x4.8mm.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 0.5)
+		)
+		(rotate
+			(xyz 0 0 90)
+		)
+	)
 )

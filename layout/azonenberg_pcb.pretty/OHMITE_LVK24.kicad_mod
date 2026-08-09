@@ -1,7 +1,7 @@
 (footprint "OHMITE_LVK24"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 7 0)
@@ -25,18 +25,6 @@
 			)
 		)
 	)
-	(property "Footprint" "OHMITE_LVK24"
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "501d5bec-745b-406d-9940-1dac651b642e")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -46,6 +34,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -58,34 +47,36 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
-	(attr through_hole)
+	(attr smd)
 	(pad "1" smd rect
 		(at -1.25 -2.625)
 		(size 1.9 3.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "cc79a8ad-80ca-4cff-9c40-149883bacb7e")
 	)
 	(pad "2" smd rect
 		(at 1.25 -2.625)
 		(size 1.9 3.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "14e81128-5127-4877-9927-7623165e2303")
 	)
 	(pad "3" smd rect
 		(at -1.25 2.625)
 		(size 1.9 3.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "af561ad9-3ea7-4380-84eb-48f712242788")
 	)
 	(pad "4" smd rect
 		(at 1.25 2.625)
 		(size 1.9 3.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "78cd2e51-35a7-4771-954d-44f902bdfa60")
 	)
+	(embedded_fonts no)
 	(model ":SHARE:Ohmite/LVK24_OHM.step"
 		(offset
 			(xyz 0 0 0)

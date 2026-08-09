@@ -1,7 +1,7 @@
 (footprint "OHMITE_LVK25"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 7 0)
@@ -25,18 +25,6 @@
 			)
 		)
 	)
-	(property "Footprint" "OHMITE_LVK25"
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "0d743810-9d6a-41a2-8182-6ecf20f1f9a5")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -46,6 +34,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -58,34 +47,36 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
-	(attr through_hole)
+	(attr smd)
 	(pad "1" smd rect
 		(at -1.8 -2.15)
 		(size 1.4 3.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "b438898b-bf0e-4d67-87c1-8a3a5e8665a6")
 	)
 	(pad "2" smd rect
 		(at -1.8 2.15)
 		(size 1.4 3.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "e5acc9a8-9acf-4d57-8aa6-31b0666acb7f")
 	)
 	(pad "3" smd rect
 		(at 1.8 -2.15)
 		(size 1.4 3.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "724c0bf9-cb09-4d60-9107-fc2be6a3014b")
 	)
 	(pad "4" smd rect
 		(at 1.8 2.15)
 		(size 1.4 3.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "b3030599-0b5c-4578-9e48-62f639a33538")
 	)
+	(embedded_fonts no)
 	(model ":WALTER:smd_resistors/r_2512.wrl"
 		(offset
 			(xyz 0 0 0)

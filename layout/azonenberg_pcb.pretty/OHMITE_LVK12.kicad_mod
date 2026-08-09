@@ -1,17 +1,89 @@
-(module OHMITE_LVK12 (layer F.Cu) (tedit 5642E860)
-  (fp_text reference REF** (at 0 4.25) (layer F.SilkS)
-    (effects (font (size 1.5 1.5) (thickness 0.15)))
-  )
-  (fp_text value OHMITE_LVK12 (at 0 2.75) (layer F.Fab)
-    (effects (font (size 1.5 1.5) (thickness 0.15)))
-  )
-  (pad 4 smd rect (at 1.375 0.7) (size 1.75 1.1) (layers F.Cu F.Paste F.Mask))
-  (pad 3 smd rect (at 1.375 -0.7) (size 1.75 1.1) (layers F.Cu F.Paste F.Mask))
-  (pad 1 smd rect (at -1.375 -0.7) (size 1.75 1.1) (layers F.Cu F.Paste F.Mask))
-  (pad 2 smd rect (at -1.375 0.7) (size 1.75 1.1) (layers F.Cu F.Paste F.Mask))
-  (model /nfs4/home/azonenberg/kicad-libs/3rdparty/walter/smd_resistors/r_1206.wrl
-    (at (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
+(footprint "OHMITE_LVK12"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 4.25 0)
+		(layer "F.SilkS")
+		(uuid "56bb3743-9327-40b5-973c-400f58319997")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "OHMITE_LVK12"
+		(at 0 2.75 0)
+		(layer "F.Fab")
+		(uuid "f678b089-15bc-4aa7-92a6-3146c05d8062")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5fd9b22f-655a-494f-bdc2-51eee1b3fa88")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4a164f1f-d265-433b-92f6-5d37f10c43a6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(pad "1" smd rect
+		(at -1.375 -0.7)
+		(size 1.75 1.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "3a8f5511-d7fa-4794-95c0-e041e81acc8e")
+	)
+	(pad "2" smd rect
+		(at -1.375 0.7)
+		(size 1.75 1.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "81d63e94-a939-4f6d-9f6e-c65f6060778b")
+	)
+	(pad "3" smd rect
+		(at 1.375 -0.7)
+		(size 1.75 1.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "da2a7665-8688-4689-a876-e12ed796b319")
+	)
+	(pad "4" smd rect
+		(at 1.375 0.7)
+		(size 1.75 1.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "470fdcbb-7544-42b3-9533-6907bba7cbb2")
+	)
+	(embedded_fonts no)
+	(model ":WALTER:smd_resistors/r_1206.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )
