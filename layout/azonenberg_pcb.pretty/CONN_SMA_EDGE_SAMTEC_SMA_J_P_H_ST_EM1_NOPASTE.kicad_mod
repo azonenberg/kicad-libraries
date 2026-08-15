@@ -1,0 +1,95 @@
+(footprint "CONN_SMA_EDGE_SAMTEC_SMA_J_P_H_ST_EM1_NOPASTE"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 3.1 0)
+		(layer "F.SilkS")
+		(uuid "e52e0516-fb2d-4e9e-9d7a-a1ea36228b11")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "CONN_SMA_EDGE_SAMTEC_SMA_J_P_H_ST_EM1_NOPASTE"
+		(at 0 1.6 0)
+		(layer "F.Fab")
+		(uuid "bbf2a379-bfa9-4827-a96f-7cbe46c79391")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d5c00c1e-d7f7-4732-b049-2b8bec4f4084")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bfa57a05-2e47-4557-bad1-b15f3c303a3b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(pad "1" smd rect
+		(at 0 -2.1)
+		(size 1.27 4.2)
+		(layers "F.Cu" "F.Mask")
+		(uuid "5ea04ee5-8f3e-4324-9032-d5de6a547ac7")
+	)
+	(pad "2" smd rect
+		(at -2.825 -2.35)
+		(size 1.35 4.7)
+		(layers "F.Cu" "F.Mask")
+		(uuid "d47332d9-322c-4912-817c-627750e06cdc")
+	)
+	(pad "2" smd rect
+		(at -2.825 -2.35)
+		(size 1.35 4.7)
+		(layers "B.Cu" "B.Mask")
+		(uuid "20ca27a8-9fed-4a8d-9f10-38a34a315029")
+	)
+	(pad "2" smd rect
+		(at 2.825 -2.35)
+		(size 1.35 4.7)
+		(layers "F.Cu" "F.Mask")
+		(uuid "2a5af02b-f4f3-4c67-969e-318b2bbae05e")
+	)
+	(pad "2" smd rect
+		(at 2.825 -2.35 180)
+		(size 1.35 4.7)
+		(layers "B.Cu" "B.Mask")
+		(uuid "3639be92-c757-4ddf-936c-4fab64510d74")
+	)
+	(embedded_fonts no)
+	(model ":SAMTEC:SMA-J-P-H-ST-EM1.stp"
+		(offset
+			(xyz 0 -1.499999977 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 -90 180)
+		)
+	)
+)

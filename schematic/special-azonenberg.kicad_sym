@@ -85641,6 +85641,116 @@
 		)
 		(embedded_fonts no)
 	)
+	(symbol "RF_BANDPASS_NOGROUND"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "FL"
+			(at 0 -3.556 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "RF_BANDPASS_NOGROUND_1_1"
+			(rectangle
+				(start -7.62 6.35)
+				(end 10.16 0)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.81 1.27) (xy -1.27 1.27) (xy 0 5.08) (xy 1.27 5.08) (xy 2.54 1.27) (xy 5.08 1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at -10.16 3.81 0)
+				(length 2.54)
+				(name "RFIN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 12.7 3.81 180)
+				(length 2.54)
+				(name "RFOUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(symbol "RJHSE538504"
 		(pin_names
 			(offset 1.016)
@@ -105293,6 +105403,7 @@
 				(hide yes)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "RM50-xx21"
 		(extends "RELAY_COTO_9007")
@@ -105348,5 +105459,6 @@
 				(hide yes)
 			)
 		)
+		(embedded_fonts no)
 	)
 )
