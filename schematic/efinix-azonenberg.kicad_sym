@@ -1494,60 +1494,6 @@
 			(pin bidirectional line
 				(at -3.81 19.05 0)
 				(length 3.81)
-				(name "GPIOR_154"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "J6"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -3.81 16.51 0)
-				(length 3.81)
-				(name "GPIOR_155"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "K6"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -3.81 13.97 0)
-				(length 3.81)
-				(name "GPIOR_133_CDI18"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "H7"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -3.81 11.43 0)
-				(length 3.81)
 				(name "GPIOR_151_CBUS0"
 					(effects
 						(font
@@ -1564,7 +1510,43 @@
 				)
 			)
 			(pin bidirectional line
-				(at -3.81 8.89 0)
+				(at -3.81 16.51 0)
+				(length 3.81)
+				(name "GPIOR_150_CBUS1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "J8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -3.81 13.97 0)
+				(length 3.81)
+				(name "GPIOR_149_CBUS2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "H8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -3.81 11.43 0)
 				(length 3.81)
 				(name "GPIOR_158_TEST_N"
 					(effects
@@ -1574,6 +1556,24 @@
 					)
 				)
 				(number "K7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -3.81 8.89 0)
+				(length 3.81)
+				(name "GPIOR_155"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "K6"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1602,14 +1602,14 @@
 			(pin bidirectional line
 				(at -3.81 3.81 0)
 				(length 3.81)
-				(name "GPIOR_149_CBUS2"
+				(name "GPIOR_154"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "H8"
+				(number "J6"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1620,14 +1620,14 @@
 			(pin bidirectional line
 				(at -3.81 1.27 0)
 				(length 3.81)
-				(name "GPIOR_150_CBUS1"
+				(name "GPIOR_133_CDI18"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "J8"
+				(number "H7"
 					(effects
 						(font
 							(size 1.27 1.27)
