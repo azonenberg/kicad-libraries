@@ -1,0 +1,155 @@
+(footprint "BGA_4_0.4MM_0.8x0.8_TI_YFP0004"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.1 6.3 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "abd523c5-9d7f-4569-a35e-ef5ed1483e3b")
+		(effects
+			(font
+				(size 0.75 0.75)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "BGA_4_0.4MM_0.8x0.8_TI_YFP0004"
+		(at 0.1 7.55 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "74b4d494-3aeb-4acf-9300-3d29bfc7a337")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e650844e-3c53-43be-b744-4184471bca22")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ca893b7b-f393-4e29-a68f-f641862545b6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.4 -0.4)
+		(end -0.7 -0.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "c1f050cb-ee3e-4483-bcb6-38527d4d6f2e")
+	)
+	(fp_line
+		(start -0.4 -0.4)
+		(end -0.4 -0.7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "044b4227-9ad9-470a-a4a1-6eab234f7311")
+	)
+	(fp_line
+		(start 0.4 0.4)
+		(end 0.4 0.7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "2ad7e29d-a1fb-47a3-a8c8-c36cc133e748")
+	)
+	(fp_line
+		(start 0.4 0.7)
+		(end 0.7 0.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "38d28c13-cc6d-4f4d-9876-ee6dd3d4705b")
+	)
+	(fp_line
+		(start 0.7 0.4)
+		(end 0.4 0.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "ac85fb54-38b8-4581-93d7-2097f35c2b02")
+	)
+	(fp_rect
+		(start -0.4 -0.4)
+		(end 0.4 0.4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "5eff503c-53a1-4163-865c-25a0ae3fdda1")
+	)
+	(pad "A1" smd circle
+		(at 0.2 0.2)
+		(size 0.23 0.23)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "4d5f1f1e-ff79-45f0-9de6-1cf34b713106")
+	)
+	(pad "A2" smd circle
+		(at -0.2 0.2)
+		(size 0.23 0.23)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "7d3da1f1-e726-4496-b5f6-810d83711d82")
+	)
+	(pad "B1" smd circle
+		(at 0.2 -0.2)
+		(size 0.23 0.23)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "11490688-3c35-4436-84ce-acfa9e438968")
+	)
+	(pad "B2" smd circle
+		(at -0.2 -0.2)
+		(size 0.23 0.23)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "a6f775e0-c25a-4b7b-a07e-4c13641c18e5")
+	)
+	(embedded_fonts no)
+	(model "${WALTER}/smd_bga/bga49.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 0.125 0.125 0.15)
+		)
+		(rotate
+			(xyz -0 -0 -90)
+		)
+	)
+)
