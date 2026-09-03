@@ -1,0 +1,228 @@
+(footprint "BGA_8_0.5MM_1.6MM_TI_YZR0008"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 3 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "5f07eaf5-810f-4241-95fd-fe90fa9fa16e")
+		(effects
+			(font
+				(size 0.75 0.75)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "BGA_8_0.5MM_1.6MM_TI_YZR0008"
+		(at 0 4.25 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "d532085a-ff97-4cf4-8db2-65f58300ade2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "52496abe-efa5-485a-98ee-f059a04f9164")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "86c4c4e8-2625-424d-9815-7e270caf10d4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.1 0.8)
+		(end -0.8 1.1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "3ddddef7-890b-4df6-9391-a2c1a71fff2d")
+	)
+	(fp_line
+		(start -0.8 -0.8)
+		(end -1.1 -0.8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "677a7bbc-11c3-4dbb-bad6-cac863212a66")
+	)
+	(fp_line
+		(start -0.8 -0.8)
+		(end -0.8 -1.1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "64cf467f-d3d6-45a6-a6a3-eda848984fa9")
+	)
+	(fp_line
+		(start -0.8 0.8)
+		(end -1.1 0.8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "61e6fb78-4bf5-49c9-a172-a50b7147635b")
+	)
+	(fp_line
+		(start -0.8 1.1)
+		(end -0.8 0.8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "ae7a816f-3c5a-41a5-8f69-c8e424467b4f")
+	)
+	(fp_line
+		(start 0.8 -1.1)
+		(end 0.8 -0.8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "733d41f2-456e-4364-a0f8-648ab1f644af")
+	)
+	(fp_line
+		(start 0.8 -0.8)
+		(end 0.8 -1.1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "df263d8c-ec1d-4adb-9bb1-ba92415d402c")
+	)
+	(fp_line
+		(start 0.8 -0.8)
+		(end 1.1 -0.8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "372a6111-92fc-457a-8ee3-292eff1befab")
+	)
+	(fp_line
+		(start 0.8 0.8)
+		(end 0.8 1.1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "0caf9da0-2b42-424c-a902-029e1e39fe3d")
+	)
+	(fp_line
+		(start 0.8 0.8)
+		(end 1.1 0.8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "e22a8112-e98b-4219-ad59-db1f25ad9e84")
+	)
+	(fp_rect
+		(start -0.8 -0.8)
+		(end 0.8 0.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "39b3342f-df3f-4e0a-987e-6a104a2c450d")
+	)
+	(pad "A1" smd circle
+		(at -0.5 0.5)
+		(size 0.26 0.26)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "62efe44f-7418-4331-ad6b-a3566b0cdfa0")
+	)
+	(pad "A2" smd circle
+		(at -0.5 0)
+		(size 0.26 0.26)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "483df25c-8d06-4df0-a1ad-3bd57d86150f")
+	)
+	(pad "A3" smd circle
+		(at -0.5 -0.5)
+		(size 0.26 0.26)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "3f153c85-ea03-437f-9d76-e9fbb2730117")
+	)
+	(pad "B1" smd circle
+		(at 0 0.5)
+		(size 0.26 0.26)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "437db6f9-6b0d-488d-b175-925ba033ca6d")
+	)
+	(pad "B3" smd circle
+		(at 0 -0.5)
+		(size 0.26 0.26)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "8e13b76e-31d2-4a5b-8c83-bd41e04a5d56")
+	)
+	(pad "C1" smd circle
+		(at 0.5 0.5)
+		(size 0.26 0.26)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "eb98467d-9cd8-431e-8410-5c6a14518100")
+	)
+	(pad "C2" smd circle
+		(at 0.5 0)
+		(size 0.26 0.26)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "8204299a-9f4d-4234-8fc3-7e99ab3b0d09")
+	)
+	(pad "C3" smd circle
+		(at 0.5 -0.5)
+		(size 0.26 0.26)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "7ab313c6-197b-4d20-bbe3-c5f9738191b3")
+	)
+	(embedded_fonts no)
+	(model "${WALTER}/smd_bga/bga49.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 0.25 0.25 0.25)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)
