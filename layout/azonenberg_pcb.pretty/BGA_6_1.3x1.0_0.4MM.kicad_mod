@@ -1,21 +1,111 @@
-(module BGA_6_1.3x1.0_0.4MM (layer F.Cu) (tedit 60DC9587)
-  (attr smd)
-  (fp_text reference REF** (at 0 1.3) (layer F.SilkS)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_text value BGA_6_1.3x1.0_0.4MM (at 0 3.95) (layer F.Fab)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_line (start -0.3 -0.6) (end -0.4 -0.5) (layer F.SilkS) (width 0.1))
-  (pad A1 smd circle (at -0.2 -0.4) (size 0.2 0.2) (layers F.Cu F.Paste F.Mask))
-  (pad B1 smd circle (at -0.2 0) (size 0.2 0.2) (layers F.Cu F.Paste F.Mask))
-  (pad C1 smd circle (at -0.2 0.4) (size 0.2 0.2) (layers F.Cu F.Paste F.Mask))
-  (pad A2 smd circle (at 0.2 -0.4) (size 0.2 0.2) (layers F.Cu F.Paste F.Mask))
-  (pad B2 smd circle (at 0.2 0) (size 0.2 0.2) (layers F.Cu F.Paste F.Mask))
-  (pad C2 smd circle (at 0.2 0.4) (size 0.2 0.2) (layers F.Cu F.Paste F.Mask))
-  (model :walter:smd_bga/tfbga48.wrl
-    (at (xyz 0 0 0))
-    (scale (xyz 0.125 0.15 0.15))
-    (rotate (xyz 0 0 0))
-  )
+(footprint "BGA_6_1.3x1.0_0.4MM"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 1.3 0)
+		(layer "F.SilkS")
+		(uuid "f21713b6-ea9a-4b3f-bab0-ccbb3f65266f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "BGA_6_1.3x1.0_0.4MM"
+		(at 0 3.95 0)
+		(layer "F.Fab")
+		(uuid "384f457e-1f90-4a9e-ac39-5d27c7b3e7a9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3d7ac693-78ad-49fe-a69b-1fbc2947480c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "92106eff-422a-45b7-ad7a-7495efe15af1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.3 -0.6)
+		(end -0.4 -0.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "228632f3-2749-4ddc-9985-2cb2a54820d0")
+	)
+	(pad "A1" smd circle
+		(at -0.2 -0.4)
+		(size 0.2 0.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "576308ce-78c7-4060-becf-658e6e886f98")
+	)
+	(pad "A2" smd circle
+		(at 0.2 -0.4)
+		(size 0.2 0.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "aa5c1252-de64-4b50-8c26-1cb3a6ae5c0d")
+	)
+	(pad "B1" smd circle
+		(at -0.2 0)
+		(size 0.2 0.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "0069b898-9243-471f-9b41-0478b05c641a")
+	)
+	(pad "B2" smd circle
+		(at 0.2 0)
+		(size 0.2 0.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "8df59fec-3eae-46ab-b31a-d3efa3934751")
+	)
+	(pad "C1" smd circle
+		(at -0.2 0.4)
+		(size 0.2 0.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "7c2501c0-5042-4640-b323-54b2917216e0")
+	)
+	(pad "C2" smd circle
+		(at 0.2 0.4)
+		(size 0.2 0.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "8171756b-6f69-40a9-9b7d-aa7520bfb86e")
+	)
+	(embedded_fonts no)
+	(model ":WALTER:smd_bga/tfbga48.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 0.125 0.15 0.15)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )
