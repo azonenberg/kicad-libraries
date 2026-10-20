@@ -1,14 +1,73 @@
-(module CONN_HEADER_2.54MM_1x1 (layer F.Cu) (tedit 5CB66E41)
-  (fp_text reference REF** (at 0 3.5) (layer F.SilkS)
-    (effects (font (size 1.5 1.5) (thickness 0.15)))
-  )
-  (fp_text value CONN_2.54MM_1x1 (at 1 -3) (layer F.Fab)
-    (effects (font (size 1.5 1.5) (thickness 0.15)))
-  )
-  (pad 1 thru_hole circle (at 0 0) (size 1.524 1.524) (drill 1) (layers *.Cu *.Mask F.SilkS))
-  (model :walter:pin_strip/pin_strip_1.wrl
-    (at (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
+(footprint "CONN_HEADER_2.54MM_1x1"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 3.5 0)
+		(layer "F.SilkS")
+		(uuid "cc4e63e8-7943-4325-8da7-1fed8d2730b5")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "CONN_2.54MM_1x1"
+		(at 1 -3 0)
+		(layer "F.Fab")
+		(uuid "9249ba3b-b0be-4b7a-b5a2-aeba3d274185")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2b736a25-7a9a-4dd7-8e81-3fde1eaf1e54")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1e981f35-a660-495f-8b78-8919eb2f5a25")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 1.524 1.524)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d533c03a-08d1-4939-b3cb-a798ec654f66")
+	)
+	(embedded_fonts no)
+	(model ":walter:pin_strip/pin_strip_1.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )
